@@ -7,12 +7,18 @@ A web application to watch Twitter account activity and topics, intended to obse
 1. [Setup MongoDB](https://docs.mongodb.org/manual/installation/#tutorials)
 2. Clone this repository
 3. Install dependencies
-`npm install`
+```
+npm install
+```
 4. Copy `config/twitter_sample.json` to `config/twitter.json` and fill in your API Keys from [apps.twitter.com](https://apps.twitter.com/)
 5. Run background script to stream tweets right into your database
-`npm run-script background`
+```
+npm run-script background
+```
 6. Start webapp
-`npm start`
+```
+npm start
+```
 
 ## Files
 
