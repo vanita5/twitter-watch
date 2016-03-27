@@ -5,11 +5,12 @@ var MongoClient = require('mongodb').MongoClient,
 
 const url = require(__dirname + '/../config/mongo').url;
 
-var s_accounts = "";
-Object.keys(accounts).forEach(function(key) {
-    if (s_accounts.length > 0) s_accounts += ',';
-    var _a = accounts[key].accounts;
-    s_accounts += _a.join(',');
+var arr_accounts = [];
+Object.keys(accounts).forEach(function(file_key) {
+    Object.keys(accounts[file_key]).forEach(function(account_key) {
+        if (account_key.charAt(0) === '_') return;
+        arr_accounts.push(accounts[file_key][account_key].id_str);
+    });
 });
 
 var T = new Twit({
@@ -27,7 +28,7 @@ MongoClient.connect(url, function(err, db) {
 
     var tweets = db.collection('tweets');
 
-    var stream = T.stream('statuses/filter', { follow: s_accounts });
+    var stream = T.stream('statuses/filter', { follow: arr_accounts });
 
     stream.on('tweet', function(tweet) {
         console.log('Inserting @' + tweet.user.screen_name + ': "' + tweet.text + '"');

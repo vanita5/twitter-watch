@@ -12,41 +12,41 @@
     "groups": {
       "location": "BB",
       "party": "SPD"
-    },
+    }
   },
   "GrueneBBG": {
     "id_str": 56969669,
     "groups": {
       "location": "BB",
       "party": "Gruene"
-    },
+    }
   },
   "DieLinkeBrdburg": {
     "id_str": 1045288308,
     "groups": {
       "location": "BB",
       "party": "DieLINKE"
-    },
+    }
   },
   "FDP_Brandenburg": {
     "id_str": 557573725,
     "groups": {
       "location": "BB",
       "party": "FDP"
-    },
+    }
   },
   "AfDBrandenburg": {
     "id_str": 1677524996,
     "groups": {
       "location": "BB",
       "party": "AfD"
-    },
+    }
   },
   "BVBFW": {
     "id_str": 3052255354,
     "groups": {
       "location": "BB",
       "party": "BVBFW"
-    },
+    }
   }
 }
