@@ -22,7 +22,8 @@
   },
   "scripts": {
     "start": "node ./bin/www",
-    "background": "node ./background/index.js"
+    "background": "node ./background/index.js",
+    "db_empty": "node ./scripts/db_empty.js"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
