@@ -84,4 +84,4 @@ crashlytics-build.properties
 # twitter-watch
 
 # prevent committing access token and secret
-config/twitter_sample.json
+config/twitter.json
