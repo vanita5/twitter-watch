@@ -30,19 +30,14 @@ MongoClient.connect(url, function(err, db) {
         accounts.insertMany(docs, {w:1}, function(err, result) {
             if (err) console.error(err);
 
-            //validate
-            accounts.count(function(err, result) {
-                console.log('Inserted %d accounts!', result);
-
-                //collect account ids for filter stream
-                var account_ids = [];
-                accounts.find({}, { _id: 0, id_str: 1 }).toArray(function(err, result) {
-                    if (err) { console.error(err); return; }
-                    result.forEach(function(acc) {
-                        account_ids.push(acc.id_str);
-                    });
-                    initStream(account_ids, tweets);
+            //collect account ids for filter stream
+            var account_ids = [];
+            accounts.find({}, { _id: 0, id_str: 1 }).toArray(function(err, result) {
+                if (err) { console.error(err); return; }
+                result.forEach(function(acc) {
+                    account_ids.push(acc.id_str);
                 });
+                initStream(account_ids, tweets);
             });
         });
     });
@@ -61,12 +56,9 @@ var initStream = function(account_ids, tweets) {
     var stream = T.stream('statuses/filter', { follow: account_ids });
 
     stream.on('tweet', function(tweet) {
+        if (filter(tweet, account_ids)) return;
+
         console.log('Inserting @' + tweet.user.screen_name + ': "' + tweet.text + '"');
-
-        //TODO Filter
-        //Filter retweets from unobserved accounts
-        //Filter mentions targeting observed accounts
-
         tweets.insertOne(tweet, {w:1}, function(err, result) {
             if (err) console.error(err);
         });
@@ -74,11 +66,19 @@ var initStream = function(account_ids, tweets) {
 
     stream.on('delete', function(deleteMessage) {
         tweets.updateOne(
-            { "id_str": deleteMessage.status.id_str },
+            { "id_str": deleteMessage.delete.status.id_str },
             {$set: { "deleted": true }},
             function(err, result) {
                 if (err) console.error(err);
             }
         );
     });
+};
+
+var filter = function(tweet, accounts_ids) {
+
+    //case 1: tweet.user.id_str is NOT an observed account -> this is a mention or a retweet from someone else
+    if (accounts_ids.indexOf(tweet.user.id_str) < 0) return true;
+
+    return false;
 };
