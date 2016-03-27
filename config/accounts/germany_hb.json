@@ -1,12 +1,22 @@
 {
   "accounts": [
-    2445476137, //cdubremen --unverified
-    68173134, //spdbremen --unverified
-    857836194, //gruenebremen
-    27998217, //dielinkebremen
-    415387371, //fdpbremen
-    2416299492, //afd_hb --unverified
-    3385526200, //alfabremen --unverified
-    164664039 //biwaktuell
+    2445476137, 
+    68173134, 
+    857836194, 
+    27998217, 
+    415387371, 
+    2416299492, 
+    3385526200, 
+    164664039 
+  ],
+  "_comment": [
+    "CDUBremen - unverified",
+    "spdbremen - unverified",
+    "GrueneBremen",
+    "DieLinkeBremen",
+    "FDPBremen",
+    "AfD_HB - unverified",
+    "alfabremen - unverified",
+    "BIWaktuell"
   ]
 }

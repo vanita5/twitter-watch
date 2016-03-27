@@ -1,10 +1,18 @@
 {
   "accounts": [
-    //CSU?
-    //bayern_spd --suspended
-    15980032, //gruene_bayern
-    1019854628, //linke_bayern
-    66317092, //fdpbay
-    1375039512 //afd_bayern --unverified
+    
+    
+    15980032, 
+    1019854628, 
+    66317092, 
+    1375039512 
+  ],
+  "_comment": [
+    "CSU?",
+    "Bayern_SPD - suspended",
+    "Gruene_Bayern",
+    "LINKE_Bayern",
+    "fdpbay",
+    "AfD_Bayern"
   ]
 }

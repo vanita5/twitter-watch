@@ -1,11 +1,20 @@
 {
   "accounts": [
-    //CDU?
-    23145078, //spdberlin
-    124782031, //gruene_berlin
-    196330258, //dielinkeberlin
-    63746205, //fdp_berlin --unverified
-    2356198197, //afdberlin
-    33570953 //piratenberlin
+
+    23145078, 
+    124782031, 
+    196330258, 
+    63746205, 
+    2356198197, 
+    33570953 
+  ],
+  "_comment": [
+    "CDU?",
+    "spdberlin",
+    "gruene_berlin",
+    "dielinkeberlin",
+    "fdp_berlin - unverified",
+    "AfDBerlin",
+    "PiratenBerlin"
   ]
 }

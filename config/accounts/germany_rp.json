@@ -1,10 +1,18 @@
 {
   "accounts": [
-    57641158, //cdurlp
-    24155607, //spdrlp
-    1565679818, //gruenerlp --inaktiv
-    146816929, //die_linke_rlp
-    199281559, //fdprlp
-    3521387355 //rlp_afd
+    57641158, 
+    24155607, 
+    1565679818, 
+    146816929, 
+    199281559, 
+    3521387355 
+  ],
+  "_comment": [
+    "cdurlp",
+    "spdrlp",
+    "GrueneRLP - inaktiv",
+    "DIE_LINKE_RLP",
+    "fdprlp",
+    "RLP_AfD"
   ]
 }

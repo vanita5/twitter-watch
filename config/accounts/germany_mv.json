@@ -1,11 +1,20 @@
 {
   "accounts": [
-    22338642, //cdumv
-    1285611955, //spdmv
-    16696799, //gruene_mv
-    2511381768, //die_linke_mv --unverified
-    605361994, //fdp_mv
-    1567658617, //afd_mv
-    57014518 //npd_mv
+    22338642, 
+    1285611955, 
+    16696799, 
+    2511381768, 
+    605361994, 
+    1567658617, 
+    57014518 
+  ],
+  "_comment": [
+    "CDUMV",
+    "SPDMV",
+    "GRUENE_MV",
+    "DIE_LINKE_MV - unverified",
+    "FDP_MV",
+    "AfD_MV",
+    "NPD_MV"
   ]
 }

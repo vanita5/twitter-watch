@@ -1,10 +1,18 @@
 {
   "accounts": [
-    15833695, //cdu_hessen
-    635466500, //hessenspd
-    213984085, //gruenehessen
-    37434345, //dielinkehessen --unverified
-    21501043, //fdphessen
-    1414088353 //afd_hessen
+    15833695, 
+    635466500, 
+    213984085, 
+    37434345, 
+    21501043, 
+    1414088353 
+  ],
+  "_comment": [
+    "cdu_hessen",
+    "hessenSPD",
+    "gruenehessen",
+    "DIELINKEHESSEN - unverified",
+    "FDPHessen",
+    "AfD_Hessen"
   ]
 }

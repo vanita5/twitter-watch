@@ -1,10 +1,18 @@
 {
   "accounts": [
-    467282887, //cdu_hamburg
-    20596523, //spdhh
-    21385546, //gruene_hamburg
-    221513227, //dielinke_hh
-    140438576, //fdphh --unverified
-    3393740861 //afd_hamburg
+    467282887, 
+    20596523, 
+    21385546, 
+    221513227, 
+    140438576, 
+    3393740861 
+  ],
+  "_comment": [
+    "CDU_Hamburg",
+    "spdhh",
+    "GRUENE_Hamburg",
+    "DieLinke_HH",
+    "fdphh - unverified",
+    "AfD_Hamburg"
   ]
 }

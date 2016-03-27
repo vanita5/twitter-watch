@@ -1,11 +1,20 @@
 {
   "accounts": [
-    309048092, //cdu_brandenburg --unverified
-    20461497, //ostkurve (SPD)
-    56969669, //gruenebbg
-    1045288308, //dielinkebrdburg
-    557573725, //fdb_brandenburg
-    1677524996, //afdbrandenburg
-    3052255354 //bvbfw --unverified
+    309048092, 
+    20461497, 
+    56969669, 
+    1045288308, 
+    557573725, 
+    1677524996, 
+    3052255354
+  ],
+  "_comment": [
+    "CDU_Brandenburg - unverified",
+    "ostkurve (SPD)",
+    "GrueneBBG",
+    "DieLinkeBrdburg",
+    "FDP_Brandenburg",
+    "AfDBrandenburg",
+    "BVBFW"
   ]
 }

@@ -1,12 +1,22 @@
 {
   "accounts": [
-    59154583, //cdusachsen --unverified
-    59156216, //sachsencdu --unverified
-    46346999, //spdsachsen
-    20974580, //gruene_sachsen
-    18834002, //linke_sachsen
-    19293052, //fdpsachsen
-    2782263614, //sachsen_afd --unverified
-    1280551850 //afd_sachsen --unverified
+    59154583, 
+    59156216, 
+    46346999, 
+    20974580, 
+    18834002, 
+    19293052, 
+    2782263614, 
+    1280551850 
+  ],
+  "_comment": [
+    "cdusachsen - unverified",
+    "sachsencdu - unverified",
+    "SPDSachsen",
+    "gruene_sachsen",
+    "linke_sachsen",
+    "fdpsachsen",
+    "sachsen_afd - unverified",
+    "AfD_Sachsen - unverified"
   ]
 }

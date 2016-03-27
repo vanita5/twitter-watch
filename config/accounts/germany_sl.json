@@ -1,11 +1,20 @@
 {
   "accounts": [
-    26521316, //cdu_saar
-    24674357, //spd_saar
-    19330610, //gruene_saar --unverified
-    475853322, //dielinkesaar --unverified
-    285658873, //fdp_saar
-    //1375453410, //afd_saarland (jetzt: Alfa-Freunde Saar)
-    44123319 //piraten_saar
+    26521316, 
+    24674357, 
+    19330610, 
+    475853322, 
+    285658873, 
+    
+    44123319 
+  ],
+  "_comment": [
+    "cdu_saar",
+    "SPD_Saar",
+    "Gruene_Saar - unverified",
+    "dielinkesaar - unverified",
+    "FDP_Saar",
+    "AfD_Saarland - jetzt: Alfa-Freunde Saar - ungültig",
+    "PIRATEN_Saar"
   ]
 }

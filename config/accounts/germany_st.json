@@ -1,10 +1,18 @@
 {
   "accounts": [
-    426487630, //cdulsa
-    105348313, //spd_lsa
-    26629973, //gruene_lsa
-    707013925, //dielinkelsa
-    19181881 //fdp_lsa
-    //AfD?
+    426487630, 
+    105348313, 
+    26629973, 
+    707013925, 
+    19181881 
+    
+  ],
+  "_comment": [
+    "cdulsa",
+    "SPD_LSA",
+    "gruene_lsa",
+    "DIELINKELSA",
+    "FDP_LSA",
+    "AfD?"
   ]
 }
