@@ -1,20 +1,45 @@
 {
-  "accounts": [
-
-    23145078, 
-    124782031, 
-    196330258, 
-    63746205, 
-    2356198197, 
-    33570953 
-  ],
-  "_comment": [
-    "CDU?",
-    "spdberlin",
-    "gruene_berlin",
-    "dielinkeberlin",
-    "fdp_berlin - unverified",
-    "AfDBerlin",
-    "PiratenBerlin"
-  ]
+  "spdberlin": {
+    "id_str": 23145078,
+    "groups": {
+      "location": "BE",
+      "party": "SPD"
+    }
+  },
+  "gruene_berlin": {
+    "id_str": 124782031,
+    "groups": {
+      "location": "BE",
+      "party": "Gruene"
+    }
+  },
+  "dielinkeberlin": {
+    "id_str": 196330258,
+    "groups": {
+      "location": "BE",
+      "party": "DieLINKE"
+    }
+  },
+  "fdp_berlin": {
+    "id_str": 63746205,
+    "groups": {
+      "location": "BE",
+      "party": "FDP"
+    }
+  },
+  "AfDBerlin": {
+    "id_str": 2356198197,
+    "groups": {
+      "location": "BE",
+      "party": "AfD"
+    }
+  },
+  "PiratenBerlin": {
+    "id_str": 33570953,
+    "groups": {
+      "location": "BE",
+      "party": "Piratenpartei"
+    }
+  },
+  "_comment": "Missing: CDU"
 }

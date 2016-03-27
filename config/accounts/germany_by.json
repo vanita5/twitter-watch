@@ -1,18 +1,31 @@
 {
-  "accounts": [
-    
-    
-    15980032, 
-    1019854628, 
-    66317092, 
-    1375039512 
-  ],
-  "_comment": [
-    "CSU?",
-    "Bayern_SPD - suspended",
-    "Gruene_Bayern",
-    "LINKE_Bayern",
-    "fdpbay",
-    "AfD_Bayern"
-  ]
+  "Gruene_Bayern": {
+    "id_str": 15980032,
+    "groups": {
+      "location": "BY",
+      "party": "Gruene"
+    }
+  },
+  "LINKE_Bayern": {
+    "id_str": 1019854628,
+    "groups": {
+      "location": "BY",
+      "party": "DieLINKE"
+    }
+  },
+  "fdpbay": {
+    "id_str": 66317092,
+    "groups": {
+      "location": "BY",
+      "party": "FDP"
+    }
+  },
+  "AfD_Bayern": {
+    "id_str": 1375039512,
+    "groups": {
+      "location": "BY",
+      "party": "AfD"
+    }
+  },
+  "_comment": "Missing: CDU/CSU, SPD"
 }

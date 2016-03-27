@@ -1,18 +1,39 @@
 {
-  "accounts": [
-    23454769, 
-    21448191, 
-    18632035, 
-    24521257, 
-    214826254
-    
-  ],
-  "_comment": [
-    "cdu_thueringen",
-    "SPDThueringen",
-    "Gruene_TH",
-    "die_linke_th",
-    "fdp_thueringen - unverified",
-    "Thueringen_AfD - unofficial"
-  ]
+  "cdu_thueringen": {
+    "id_str": 23454769,
+    "groups": {
+      "location": "TH",
+      "party": "CDU"
+    }
+  },
+  "SPDThueringen": {
+    "id_str": 21448191,
+    "groups": {
+      "location": "TH",
+      "party": "SPD"
+    }
+  },
+  "Gruene_TH": {
+    "id_str": 18632035,
+    "groups": {
+      "location": "TH",
+      "party": "Gruene"
+    }
+  },
+  "die_linke_th": {
+    "id_str": 24521257,
+    "groups": {
+      "location": "TH",
+      "party": "DieLINKE"
+    }
+  },
+  "fdp_thueringen": {
+    "id_str": 214826254,
+    "groups": {
+      "location": "TH",
+      "party": "FDP"
+    },
+    "_comment": "unverified"
+  },
+  "_comment": "Thueringen_AfD - unofficial"
 }

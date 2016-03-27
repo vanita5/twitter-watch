@@ -1,22 +1,62 @@
 {
-  "accounts": [
-    59154583, 
-    59156216, 
-    46346999, 
-    20974580, 
-    18834002, 
-    19293052, 
-    2782263614, 
-    1280551850 
-  ],
-  "_comment": [
-    "cdusachsen - unverified",
-    "sachsencdu - unverified",
-    "SPDSachsen",
-    "gruene_sachsen",
-    "linke_sachsen",
-    "fdpsachsen",
-    "sachsen_afd - unverified",
-    "AfD_Sachsen - unverified"
-  ]
+  "cdusachsen": {
+    "id_str": 59154583,
+    "groups": {
+      "location": "SN",
+      "party": "CDU"
+    },
+    "_comment": "unverified"
+  },
+  "sachsencdu": {
+    "id_str": 59156216,
+    "groups": {
+      "location": "SN",
+      "party": "CDU"
+    },
+    "_comment": "unverified"
+  },
+  "SPDSachsen": {
+    "id_str": 46346999,
+    "groups": {
+      "location": "SN",
+      "party": "SPD"
+    }
+  },
+  "gruene_sachsen": {
+    "id_str": 20974580,
+    "groups": {
+      "location": "SN",
+      "party": "Gruene"
+    }
+  },
+  "linke_sachsen": {
+    "id_str": 18834002,
+    "groups": {
+      "location": "SN",
+      "party": "DieLINKE"
+    }
+  },
+  "fdpsachsen": {
+    "id_str": 19293052,
+    "groups": {
+      "location": "SN",
+      "party": "FDP"
+    }
+  },
+  "sachsen_afd": {
+    "id_str": 2782263614,
+    "groups": {
+      "location": "SN",
+      "party": "AfD"
+    },
+    "_comment": "unverified"
+  },
+  "AfD_Sachsen": {
+    "id_str": 1280551850,
+    "groups": {
+      "location": "SN",
+      "party": "AfD"
+    },
+    "_comment": "unverified"
+  }
 }

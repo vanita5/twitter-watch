@@ -1,20 +1,47 @@
 {
-  "accounts": [
-    26521316, 
-    24674357, 
-    19330610, 
-    475853322, 
-    285658873, 
-    
-    44123319 
-  ],
-  "_comment": [
-    "cdu_saar",
-    "SPD_Saar",
-    "Gruene_Saar - unverified",
-    "dielinkesaar - unverified",
-    "FDP_Saar",
-    "AfD_Saarland - jetzt: Alfa-Freunde Saar - ungültig",
-    "PIRATEN_Saar"
-  ]
+  "cdu_saar": {
+    "id_str": 26521316,
+    "groups": {
+      "location": "SL",
+      "party": "CDU"
+    }
+  },
+  "SPD_Saar": {
+    "id_str": 24674357,
+    "groups": {
+      "location": "SL",
+      "party": "SPD"
+    }
+  },
+  "Gruene_Saar": {
+    "id_str": 19330610,
+    "groups": {
+      "location": "SL",
+      "party": "Gruene"
+    },
+    "_comment": "unverified"
+  },
+  "dielinkesaar": {
+    "id_str": 475853322,
+    "groups": {
+      "location": "SL",
+      "party": "DieLINKE"
+    },
+    "_comment": "unverified"
+  },
+  "FDP_Saar": {
+    "id_str": 285658873,
+    "groups": {
+      "location": "SL",
+      "party": "FDP"
+    }
+  },
+  "PIRATEN_Saar": {
+    "id_str": 44123319,
+    "groups": {
+      "location": "SL",
+      "party": "Piratenpartei"
+    }
+  },
+  "_comment": "AfD_Saarland - jetzt: Alfa-Freunde Saar - ungültig"
 }

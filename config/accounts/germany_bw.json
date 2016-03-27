@@ -1,20 +1,52 @@
 {
-  "accounts": [
-    20765133, 
-    19062136, 
-    16002482, 
-    27405083, 
-    22157096, 
-    1542805482,
-    1370417857
-  ],
-  "_comment": [
-    "CDU_BW",
-    "spdbawue",
-    "GrueneBW",
-    "die_linke_bw",
-    "FDPBW",
-    "AlternativeBW",
-    "AfD_BW - deprecated"
-  ]
+  "CDU_BW": {
+    "id_str": 20765133,
+    "groups": {
+      "location": "BW",
+      "party": "CDU"
+    }
+  },
+  "spdbawue": {
+    "id_str": 19062136,
+    "groups": {
+      "location": "BW",
+      "party": "SPD"
+    }
+  },
+  "GrueneBW": {
+    "id_str": 16002482,
+    "groups": {
+      "location": "BW",
+      "party": "Gruene"
+    }
+  },
+  "die_linke_bw": {
+    "id_str": 27405083,
+    "groups": {
+      "location": "BW",
+      "party": "DieLINKE"
+    }
+  },
+  "FDPBW": {
+    "id_str": 22157096,
+    "groups": {
+      "location": "BW",
+      "party": "FDP"
+    }
+  },
+  "AlternativeBW": {
+    "id_str": 1542805482,
+    "groups": {
+      "location": "BW",
+      "party": "AfD"
+    }
+  },
+  "AfD_BW": {
+    "id_str": 1370417857,
+    "groups": {
+      "location": "BW",
+      "party": "AfD"
+    },
+    "_comment": "deprecated"
+  }
 }

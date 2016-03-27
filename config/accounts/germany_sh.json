@@ -1,20 +1,51 @@
 {
-  "accounts": [
-    620307104, 
-    17808184, 
-    17589578, 
-    2369959501, 
-    65596829, 
-    4474349613, 
-    42501096 
-  ],
-  "_comment": [
-    "SH_CDU",
-    "SPDSH",
-    "GrueneSH",
-    "linke_sh",
-    "FDP_SH",
-    "AfD_SH1",
-    "PiratenparteiSH"
-  ]
+  "SH_CDU": {
+    "id_str": 620307104,
+    "groups": {
+      "location": "SH",
+      "party": "CDU"
+    }
+  },
+  "SPDSH": {
+    "id_str": 17808184,
+    "groups": {
+      "location": "SH",
+      "party": "SPD"
+    }
+  },
+  "GrueneSH": {
+    "id_str": 17589578,
+    "groups": {
+      "location": "SH",
+      "party": "Gruene"
+    }
+  },
+  "linke_sh": {
+    "id_str": 2369959501,
+    "groups": {
+      "location": "SH",
+      "party": "DieLINKE"
+    }
+  },
+  "FDP_SH": {
+    "id_str": 65596829,
+    "groups": {
+      "location": "SH",
+      "party": "FDP"
+    }
+  },
+  "AfD_SH1": {
+    "id_str": 4474349613,
+    "groups": {
+      "location": "SH",
+      "party": "AfD"
+    }
+  },
+  "PiratenparteiSH": {
+    "id_str": 42501096,
+    "groups": {
+      "location": "SH",
+      "party": "PiratenparteiSH"
+    }
+  }
 }

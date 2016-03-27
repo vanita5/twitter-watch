@@ -1,18 +1,38 @@
 {
-  "accounts": [
-    426487630, 
-    105348313, 
-    26629973, 
-    707013925, 
-    19181881 
-    
-  ],
-  "_comment": [
-    "cdulsa",
-    "SPD_LSA",
-    "gruene_lsa",
-    "DIELINKELSA",
-    "FDP_LSA",
-    "AfD?"
-  ]
+  "cdulsa": {
+    "id_str": 426487630,
+    "groups": {
+      "location": "ST",
+      "party": "CDU"
+    }
+  },
+  "SPD_LSA": {
+    "id_str": 105348313,
+    "groups": {
+      "location": "ST",
+      "party": "SPD"
+    }
+  },
+  "gruene_lsa": {
+    "id_str": 26629973,
+    "groups": {
+      "location": "ST",
+      "party": "Gruene"
+    }
+  },
+  "DIELINKELSA": {
+    "id_str": 707013925,
+    "groups": {
+      "location": "ST",
+      "party": "DieLINKE"
+    }
+  },
+  "FDP_LSA": {
+    "id_str": 19181881,
+    "groups": {
+      "location": "ST",
+      "party": "FDP"
+    }
+  },
+  "_comment": "Missing: AfD"
 }

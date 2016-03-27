@@ -1,20 +1,53 @@
 {
-  "accounts": [
-    22338642, 
-    1285611955, 
-    16696799, 
-    2511381768, 
-    605361994, 
-    1567658617, 
-    57014518 
-  ],
-  "_comment": [
-    "CDUMV",
-    "SPDMV",
-    "GRUENE_MV",
-    "DIE_LINKE_MV - unverified",
-    "FDP_MV",
-    "AfD_MV",
-    "NPD_MV"
-  ]
+  "CDUMV": {
+    "id_str": 22338642,
+    "groups": {
+      "location": "MV",
+      "party": "CDU"
+    }
+  },
+  "SPDMV": {
+    "id_str": 1285611955,
+    "groups": {
+      "location": "MV",
+      "party": "SPD"
+    }
+  },
+  "GRUENE_MV": {
+    "id_str": 16696799,
+    "groups": {
+      "location": "MV",
+      "party": "Gruene"
+    }
+  },
+  "DIE_LINKE_MV": {
+    "id_str": 2511381768,
+    "groups": {
+      "location": "MV",
+      "party": "DieLINKE"
+    },
+    "_comment": "unverified"
+  },
+  "FDP_MV": {
+    "id_str": 605361994,
+    "groups": {
+      "location": "MV",
+      "party": "FDP"
+    },
+    "_comment": "unverified"
+  },
+  "AfD_MV": {
+    "id_str": 1567658617,
+    "groups": {
+      "location": "MV",
+      "party": "AfD"
+    }
+  },
+  "NPD_MV": {
+    "id_str": 57014518,
+    "groups": {
+      "location": "MV",
+      "party": "NPD"
+    }
+  }
 }

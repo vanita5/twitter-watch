@@ -1,18 +1,45 @@
 {
-  "accounts": [
-    15833695, 
-    635466500, 
-    213984085, 
-    37434345, 
-    21501043, 
-    1414088353 
-  ],
-  "_comment": [
-    "cdu_hessen",
-    "hessenSPD",
-    "gruenehessen",
-    "DIELINKEHESSEN - unverified",
-    "FDPHessen",
-    "AfD_Hessen"
-  ]
+  "cdu_hessen": {
+    "id_str": 15833695,
+    "groups": {
+      "location": "HE",
+      "party": "CDU"
+    }
+  },
+  "hessenSPD": {
+    "id_str": 635466500,
+    "groups": {
+      "location": "HE",
+      "party": "SPD"
+    }
+  },
+  "gruenehessen": {
+    "id_str": 213984085,
+    "groups": {
+      "location": "HE",
+      "party": "Gruene"
+    }
+  },
+  "DIELINKEHESSEN": {
+    "id_str": 37434345,
+    "groups": {
+      "location": "HE",
+      "party": "DieLINKE"
+    },
+    "_comment": "unverified"
+  },
+  "FDPHessen": {
+    "id_str": 21501043,
+    "groups": {
+      "location": "HE",
+      "party": "FDP"
+    }
+  },
+  "AfD_Hessen": {
+    "id_str": 1414088353,
+    "groups": {
+      "location": "HE",
+      "party": "AfD"
+    }
+  }
 }

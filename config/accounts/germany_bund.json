@@ -1,20 +1,51 @@
 {
-  "accounts": [
-    20429858, 
-    21107582, 
-    26458162, 
-    14553288, 
-    44101578, 
-    39475170, 
-    844081278 
-  ],
-  "_comment": [
-    "CDU",
-    "CSU",
-    "spdde",
-    "Die_Gruenen",
-    "dieLinke",
-    "fdp",
-    "AfD_Bund"
-  ]
+  "CDU": {
+    "id_str": 20429858,
+    "groups": {
+      "location": "Bund",
+      "party": "CDU"
+    }
+  },
+  "CSU": {
+    "id_str": 21107582,
+    "groups": {
+      "location": "Bund",
+      "party": "CSU"
+    }
+  },
+  "spdde": {
+    "id_str": 26458162,
+    "groups": {
+      "location": "Bund",
+      "party": "SPD"
+    }
+  },
+  "Die_Gruenen": {
+    "id_str": 14553288,
+    "groups": {
+      "location": "Bund",
+      "party": "Gruene"
+    }
+  },
+  "dieLinke": {
+    "id_str": 44101578,
+    "groups": {
+      "location": "Bund",
+      "party": "DieLINKE"
+    }
+  },
+  "fdp": {
+    "id_str": 39475170,
+    "groups": {
+      "location": "Bund",
+      "party": "FDP"
+    }
+  },
+  "AfD_Bund": {
+    "id_str": 844081278,
+    "groups": {
+      "location": "Bund",
+      "party": "AfD"
+    }
+  }
 }

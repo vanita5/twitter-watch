@@ -1,22 +1,60 @@
 {
-  "accounts": [
-    102371677, 
-    14301745, 
-    16777522, 
-    86159348, 
-    16095962, 
-    1347977654, 
-    1713942204, 
-    36646869 
-  ],
-  "_comment": [
-    "CDUNRW_de",
-    "nrwspd",
-    "gruenenrw",
-    "DieLinkeNRW",
-    "fdp_nrw",
-    "AfD_NRW - unverified",
-    "AfDNRW - unverified",
-    "PiratenNRW"
-  ]
+  "CDUNRW_de": {
+    "id_str": 102371677,
+    "groups": {
+      "location": "NW",
+      "party": "CDU"
+    }
+  },
+  "nrwspd": {
+    "id_str": 14301745,
+    "groups": {
+      "location": "NW",
+      "party": "SPD"
+    }
+  },
+  "gruenenrw": {
+    "id_str": 16777522,
+    "groups": {
+      "location": "NW",
+      "party": "Gruene"
+    }
+  },
+  "DieLinkeNRW": {
+    "id_str": 86159348,
+    "groups": {
+      "location": "NW",
+      "party": "DieLINKE"
+    }
+  },
+  "fdp_nrw": {
+    "id_str": 16095962,
+    "groups": {
+      "location": "NW",
+      "party": "FDP"
+    }
+  },
+  "AfD_NRW": {
+    "id_str": 1347977654,
+    "groups": {
+      "location": "NW",
+      "party": "AfD"
+    },
+    "_comment": "unverified"
+  },
+  "AfDNRW": {
+    "id_str": 1713942204,
+    "groups": {
+      "location": "NW",
+      "party": "AfD"
+    },
+    "_comment": "unverified"
+  },
+  "PiratenNRW": {
+    "id_str": 36646869,
+    "groups": {
+      "location": "NW",
+      "party": "Piratenpartei"
+    }
+  }
 }

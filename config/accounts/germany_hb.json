@@ -1,22 +1,62 @@
 {
-  "accounts": [
-    2445476137, 
-    68173134, 
-    857836194, 
-    27998217, 
-    415387371, 
-    2416299492, 
-    3385526200, 
-    164664039 
-  ],
-  "_comment": [
-    "CDUBremen - unverified",
-    "spdbremen - unverified",
-    "GrueneBremen",
-    "DieLinkeBremen",
-    "FDPBremen",
-    "AfD_HB - unverified",
-    "alfabremen - unverified",
-    "BIWaktuell"
-  ]
+  "CDUBremen": {
+    "id_str": 2445476137,
+    "groups": {
+      "location": "HB",
+      "party": "CDU"
+    },
+    "_comment": "unverified"
+  },
+  "spdbremen": {
+    "id_str": 68173134,
+    "groups": {
+      "location": "HB",
+      "party": "SPD"
+    },
+    "_comment": "unverified"
+  },
+  "GrueneBremen": {
+    "id_str": 857836194,
+    "groups": {
+      "location": "HB",
+      "party": "Gruene"
+    }
+  },
+  "DieLinkeBremen": {
+    "id_str": 27998217,
+    "groups": {
+      "location": "HB",
+      "party": "DieLINKE"
+    }
+  },
+  "FDPBremen": {
+    "id_str": 415387371,
+    "groups": {
+      "location": "HB",
+      "party": "FDP"
+    }
+  },
+  "AfD_HB": {
+    "id_str": 2416299492,
+    "groups": {
+      "location": "HB",
+      "party": "AfD"
+    },
+    "_comment": "unverified"
+  },
+  "alfabremen": {
+    "id_str": 3385526200,
+    "groups": {
+      "location": "HB",
+      "party": "ALFA"
+    },
+    "_comment": "unverified"
+  },
+  "BIWaktuell": {
+    "id_str": 164664039,
+    "groups": {
+      "location": "HB",
+      "party": "BIWaktuell"
+    }
+  }
 }

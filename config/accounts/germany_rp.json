@@ -1,18 +1,45 @@
 {
-  "accounts": [
-    57641158, 
-    24155607, 
-    1565679818, 
-    146816929, 
-    199281559, 
-    3521387355 
-  ],
-  "_comment": [
-    "cdurlp",
-    "spdrlp",
-    "GrueneRLP - inaktiv",
-    "DIE_LINKE_RLP",
-    "fdprlp",
-    "RLP_AfD"
-  ]
+  "cdurlp": {
+    "id_str": 57641158,
+    "groups": {
+      "location": "RP",
+      "party": "CDU"
+    }
+  },
+  "spdrlp": {
+    "id_str": 24155607,
+    "groups": {
+      "location": "RP",
+      "party": "SPD"
+    }
+  },
+  "GrueneRLP": {
+    "id_str": 1565679818,
+    "groups": {
+      "location": "RP",
+      "party": "Gruene"
+    },
+    "_comment": "inactive"
+  },
+  "DIE_LINKE_RLP": {
+    "id_str": 146816929,
+    "groups": {
+      "location": "RP",
+      "party": "DieLINKE"
+    }
+  },
+  "fdprlp": {
+    "id_str": 199281559,
+    "groups": {
+      "location": "RP",
+      "party": "FDP"
+    }
+  },
+  "RLP_AfD": {
+    "id_str": 3521387355,
+    "groups": {
+      "location": "RP",
+      "party": "AfD"
+    }
+  }
 }

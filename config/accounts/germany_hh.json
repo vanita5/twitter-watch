@@ -1,18 +1,45 @@
 {
-  "accounts": [
-    467282887, 
-    20596523, 
-    21385546, 
-    221513227, 
-    140438576, 
-    3393740861 
-  ],
-  "_comment": [
-    "CDU_Hamburg",
-    "spdhh",
-    "GRUENE_Hamburg",
-    "DieLinke_HH",
-    "fdphh - unverified",
-    "AfD_Hamburg"
-  ]
+  "CDU_Hamburg": {
+    "id_str": 467282887,
+    "groups": {
+      "location": "HH",
+      "party": "CDU"
+    }
+  },
+  "spdhh": {
+    "id_str": 20596523,
+    "groups": {
+      "location": "HH",
+      "party": "SPD"
+    }
+  },
+  "GRUENE_Hamburg": {
+    "id_str": 21385546,
+    "groups": {
+      "location": "HH",
+      "party": "Gruene"
+    }
+  },
+  "DieLinke_HH": {
+    "id_str": 221513227,
+    "groups": {
+      "location": "HH",
+      "party": "DieLINKE"
+    }
+  },
+  "fdphh": {
+    "id_str": 140438576,
+    "groups": {
+      "location": "HH",
+      "party": "FDP"
+    },
+    "_comment": "unverified"
+  },
+  "AfD_Hamburg": {
+    "id_str": 3393740861,
+    "groups": {
+      "location": "HH",
+      "party": "AfD"
+    }
+  }
 }
