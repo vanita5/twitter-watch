@@ -37,7 +37,12 @@ MongoClient.connect(url, function(err, db) {
     });
 
     stream.on('delete', function(deleteMessage) {
-       //TODO set flag for status in DB
-        console.log(deleteMessage);
+        tweets.updateOne(
+            { "id_str": deleteMessage.status.id_str },
+            {$set: { "deleted": true }},
+            function(err, result) {
+                if (err) console.error(err);
+            }
+        );
     });
 });
