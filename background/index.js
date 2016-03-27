@@ -3,7 +3,7 @@ var MongoClient = require('mongodb').MongoClient,
     twitter_config = require(__dirname + '/../config/twitter'),
     Twit = require('twit');
 
-const url = 'mongodb://localhost:27017/twitter-watch';
+const url = require(__dirname + '/../config/mongo').url;
 
 var s_accounts = "";
 Object.keys(accounts).forEach(function(key) {
