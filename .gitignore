@@ -80,3 +80,8 @@ crashlytics-build.properties
 
 .sass-cache
 *.css
+
+# twitter-watch
+
+# prevent committing access token and secret
+config/twitter_sample.json
