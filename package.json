@@ -1,7 +1,25 @@
 {
   "name": "twitter-watch",
   "version": "0.0.0",
-  "private": true,
+  "author": {
+    "name": "vanita5",
+    "email": "mail@vanit.as",
+    "url": "https://vanit.as"
+  },
+  "keywords": [
+    "twitter",
+    "application",
+    "web",
+    "mongo"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanita5/twitter-watch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vanita5/twitter-watch/issues"
+  },
   "scripts": {
     "start": "node ./bin/www",
     "background": "node ./background/index.js"
