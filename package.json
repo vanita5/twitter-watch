@@ -33,6 +33,8 @@
     "mongodb": "^2.1.11",
     "morgan": "~1.6.1",
     "node-compass": "0.2.3",
-    "serve-favicon": "~2.3.0"
+    "require-all": "^2.0.0",
+    "serve-favicon": "~2.3.0",
+    "twit": "^2.2.3"
   }
 }
