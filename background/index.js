@@ -45,6 +45,7 @@ MongoClient.connect(url, (err, db) => {
         })
         .catch((e) => {console.error(e);})
         .then((account_ids) => {
+            //fetchPreviousTweets(account_ids, tweets);
             initStream(account_ids, tweets);
         });
 });
@@ -66,6 +67,20 @@ var initStream = function (account_ids, tweets) {
                          {$set: { "deleted": true }})
             .catch((e) => {console.error(e);});
     });
+};
+
+var fetchPreviousTweets = function (account_ids, tweets) {
+    for (let id of account_ids) {
+        T.get('statuses/user_timeline', {user_id: id.id_str, count: 200})
+            .then((result) => {
+                //right now twit does not reject promises on rate limit errors but the chain should break
+                //https://github.com/ttezel/twit/issues/256
+                if(result.data.errors && result.data.errors.length) return Promise.reject(result.data.errors[0]);
+                else if(result.data.isArray && !result.data.length) return Promise.reject(new Error("No Tweets in Timeline for ID " + id));
+                else return tweets.insertMany(result.data, {w: 1});
+            },(e) => {console.error(e);})
+            .catch((e) => {console.error(e);});
+    }
 };
 
 var filter = function (tweet, accounts_ids) {
