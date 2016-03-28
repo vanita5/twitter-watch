@@ -4,13 +4,19 @@
   "author": {
     "name": "vanita5",
     "email": "mail@vanit.as",
-    "url": "https://vanit.as"
+    "url": "http://vanit.as"
   },
+  "contributors": [
+    {
+      "name": "remmy hume",
+      "url": "https://twitter.com/theR3m"
+    }
+  ],
   "keywords": [
     "twitter",
     "application",
     "web",
-    "mongo"
+    "mongodb"
   ],
   "license": "MIT",
   "repository": {
@@ -42,5 +48,6 @@
     "gulp": "^3.9.1",
     "inquirer": "^0.12.0",
     "mongobackup": "^0.2.1"
-  }
+  },
+  "private": true
 }
