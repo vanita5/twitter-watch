@@ -1,12 +1,31 @@
 var gulp = require('gulp'),
     util = require('gulp-util'),
-    inquirer = require('inquirer');
+    inquirer = require('inquirer'),
+    mongobackup = require('mongobackup');
 
 gulp.task('default', function() {
     util.log('No default task!');
 });
 
-gulp.task('clear-db', function(cb) {
+gulp.task('db-backup', function() {
+    mongobackup.dump({
+        host: 'localhost',
+        db: 'twitter-watch',
+        collection: 'tweets',
+        out: './backup'
+    });
+});
+
+gulp.task('db-restore', function() {
+    mongobackup.restore({
+        host: 'localhost',
+        db: 'twitter-watch',
+        path: './backup/twitter-watch',
+        drop: false
+    });
+});
+
+gulp.task('db-clear', function(cb) {
     inquirer.prompt([{
         type: 'confirm',
         message: 'Do you really want to clear the database? All data will be lost!',
