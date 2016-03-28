@@ -1,13 +1,14 @@
-var gulp = require('gulp'),
+'use strict';
+const gulp = require('gulp'),
     util = require('gulp-util'),
     inquirer = require('inquirer'),
     mongobackup = require('mongobackup');
 
-gulp.task('default', function() {
+gulp.task('default', () => {
     util.log('No default task!');
 });
 
-gulp.task('db-backup', function() {
+gulp.task('db-backup', () => {
     mongobackup.dump({
         host: 'localhost',
         db: 'twitter-watch',
@@ -16,7 +17,7 @@ gulp.task('db-backup', function() {
     });
 });
 
-gulp.task('db-restore', function() {
+gulp.task('db-restore', () => {
     mongobackup.restore({
         host: 'localhost',
         db: 'twitter-watch',
@@ -25,21 +26,21 @@ gulp.task('db-restore', function() {
     });
 });
 
-gulp.task('db-clear', function(cb) {
+gulp.task('db-clear', (cb) => {
     inquirer.prompt([{
         type: 'confirm',
         message: 'Do you really want to clear the database? All data will be lost!',
         default: false,
         name: 'clear'
-    }], function(answers) {
+    }], (answers) => {
         if(answers.clear) {
             util.log('Clearing the database...');
 
-            var MongoClient = require('mongodb').MongoClient;
+            const MongoClient = require('mongodb').MongoClient;
 
             const url = require(__dirname + '/config/mongo').url;
 
-            MongoClient.connect(url, function(err, db) {
+            MongoClient.connect(url, (err, db) => {
                 if (err) {
                     return console.dir(err);
                 }
@@ -49,18 +50,20 @@ gulp.task('db-clear', function(cb) {
                 var accounts = db.collection('accounts');
 
                 console.log('Empty accounts collection...');
-                accounts.deleteMany({}, function(err, result) {
-                    if (err) console.error(err);
-                    console.log('Accounts collection cleared!');
+                accounts.deleteMany({})
+                    .catch((e) => {console.error(e);})
+                    .then(() => {
+                        console.log('Accounts collection cleared!');
 
-                    console.log('Empty tweets collection...');
-                    tweets.deleteMany({}, function(err, result) {
-                        if (err) console.error(err);
+                        console.log('Empty tweets collection...');
+                        return tweets.deleteMany({});
+                    })
+                    .catch((e) => {console.error(e);})
+                    .then(() => {
                         console.log('Tweets collection cleared!');
                         db.close();
                         cb();
                     });
-                });
             });
         } else {
             util.log('Canceled');
