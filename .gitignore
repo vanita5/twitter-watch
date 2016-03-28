@@ -81,6 +81,10 @@ crashlytics-build.properties
 .sass-cache
 *.css
 
+# JSHint
+
+.jshintrc
+
 # twitter-watch
 
 # prevent committing access token and secret
