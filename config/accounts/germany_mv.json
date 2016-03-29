@@ -2,6 +2,7 @@
   "CDUMV": {
     "id_str": 22338642,
     "groups": {
+      "type": "party",
       "location": "MV",
       "party": "CDU"
     }
@@ -9,6 +10,7 @@
   "SPDMV": {
     "id_str": 1285611955,
     "groups": {
+      "type": "party",
       "location": "MV",
       "party": "SPD"
     }
@@ -16,6 +18,7 @@
   "GRUENE_MV": {
     "id_str": 16696799,
     "groups": {
+      "type": "party",
       "location": "MV",
       "party": "Gruene"
     }
@@ -23,6 +26,7 @@
   "DIE_LINKE_MV": {
     "id_str": 2511381768,
     "groups": {
+      "type": "party",
       "location": "MV",
       "party": "DieLINKE"
     },
@@ -31,6 +35,7 @@
   "FDP_MV": {
     "id_str": 605361994,
     "groups": {
+      "type": "party",
       "location": "MV",
       "party": "FDP"
     },
@@ -39,6 +44,7 @@
   "AfD_MV": {
     "id_str": 1567658617,
     "groups": {
+      "type": "party",
       "location": "MV",
       "party": "AfD"
     }
@@ -46,6 +52,7 @@
   "NPD_MV": {
     "id_str": 57014518,
     "groups": {
+      "type": "party",
       "location": "MV",
       "party": "NPD"
     }

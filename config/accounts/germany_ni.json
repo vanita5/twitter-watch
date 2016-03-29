@@ -2,6 +2,7 @@
   "CDUNds": {
     "id_str": 16009418,
     "groups": {
+      "type": "party",
       "location": "NI",
       "party": "CDU"
     }
@@ -9,6 +10,7 @@
   "SPDNDS": {
     "id_str": 17483704,
     "groups": {
+      "type": "party",
       "location": "NI",
       "party": "SPD"
     }
@@ -16,6 +18,7 @@
   "gruenelvnds": {
     "id_str": 135814941,
     "groups": {
+      "type": "party",
       "location": "NI",
       "party": "Gruene"
     }
@@ -23,6 +26,7 @@
   "die_linke_nds": {
     "id_str": 993560582,
     "groups": {
+      "type": "party",
       "location": "NI",
       "party": "DieLINKE"
     },
@@ -31,6 +35,7 @@
   "fdp_nds": {
     "id_str": 20452963,
     "groups": {
+      "type": "party",
       "location": "NI",
       "party": "FDP"
     }

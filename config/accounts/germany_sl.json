@@ -2,6 +2,7 @@
   "cdu_saar": {
     "id_str": 26521316,
     "groups": {
+      "type": "party",
       "location": "SL",
       "party": "CDU"
     }
@@ -9,6 +10,7 @@
   "SPD_Saar": {
     "id_str": 24674357,
     "groups": {
+      "type": "party",
       "location": "SL",
       "party": "SPD"
     }
@@ -16,6 +18,7 @@
   "Gruene_Saar": {
     "id_str": 19330610,
     "groups": {
+      "type": "party",
       "location": "SL",
       "party": "Gruene"
     },
@@ -24,6 +27,7 @@
   "dielinkesaar": {
     "id_str": 475853322,
     "groups": {
+      "type": "party",
       "location": "SL",
       "party": "DieLINKE"
     },
@@ -32,6 +36,7 @@
   "FDP_Saar": {
     "id_str": 285658873,
     "groups": {
+      "type": "party",
       "location": "SL",
       "party": "FDP"
     }
@@ -39,6 +44,7 @@
   "PIRATEN_Saar": {
     "id_str": 44123319,
     "groups": {
+      "type": "party",
       "location": "SL",
       "party": "Piratenpartei"
     }

@@ -2,6 +2,7 @@
   "spdberlin": {
     "id_str": 23145078,
     "groups": {
+      "type": "party",
       "location": "BE",
       "party": "SPD"
     }
@@ -9,6 +10,7 @@
   "gruene_berlin": {
     "id_str": 124782031,
     "groups": {
+      "type": "party",
       "location": "BE",
       "party": "Gruene"
     }
@@ -16,6 +18,7 @@
   "dielinkeberlin": {
     "id_str": 196330258,
     "groups": {
+      "type": "party",
       "location": "BE",
       "party": "DieLINKE"
     }
@@ -23,6 +26,7 @@
   "fdp_berlin": {
     "id_str": 63746205,
     "groups": {
+      "type": "party",
       "location": "BE",
       "party": "FDP"
     }
@@ -30,6 +34,7 @@
   "AfDBerlin": {
     "id_str": 2356198197,
     "groups": {
+      "type": "party",
       "location": "BE",
       "party": "AfD"
     }
@@ -37,6 +42,7 @@
   "PiratenBerlin": {
     "id_str": 33570953,
     "groups": {
+      "type": "party",
       "location": "BE",
       "party": "Piratenpartei"
     }

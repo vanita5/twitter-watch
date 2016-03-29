@@ -2,6 +2,7 @@
   "cdulsa": {
     "id_str": 426487630,
     "groups": {
+      "type": "party",
       "location": "ST",
       "party": "CDU"
     }
@@ -9,6 +10,7 @@
   "SPD_LSA": {
     "id_str": 105348313,
     "groups": {
+      "type": "party",
       "location": "ST",
       "party": "SPD"
     }
@@ -16,6 +18,7 @@
   "gruene_lsa": {
     "id_str": 26629973,
     "groups": {
+      "type": "party",
       "location": "ST",
       "party": "Gruene"
     }
@@ -23,6 +26,7 @@
   "DIELINKELSA": {
     "id_str": 707013925,
     "groups": {
+      "type": "party",
       "location": "ST",
       "party": "DieLINKE"
     }
@@ -30,6 +34,7 @@
   "FDP_LSA": {
     "id_str": 19181881,
     "groups": {
+      "type": "party",
       "location": "ST",
       "party": "FDP"
     }

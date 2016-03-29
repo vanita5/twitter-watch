@@ -2,6 +2,7 @@
   "CDUNRW_de": {
     "id_str": 102371677,
     "groups": {
+      "type": "party",
       "location": "NW",
       "party": "CDU"
     }
@@ -9,6 +10,7 @@
   "nrwspd": {
     "id_str": 14301745,
     "groups": {
+      "type": "party",
       "location": "NW",
       "party": "SPD"
     }
@@ -16,6 +18,7 @@
   "gruenenrw": {
     "id_str": 16777522,
     "groups": {
+      "type": "party",
       "location": "NW",
       "party": "Gruene"
     }
@@ -23,6 +26,7 @@
   "DieLinkeNRW": {
     "id_str": 86159348,
     "groups": {
+      "type": "party",
       "location": "NW",
       "party": "DieLINKE"
     }
@@ -30,6 +34,7 @@
   "fdp_nrw": {
     "id_str": 16095962,
     "groups": {
+      "type": "party",
       "location": "NW",
       "party": "FDP"
     }
@@ -37,6 +42,7 @@
   "AfD_NRW": {
     "id_str": 1347977654,
     "groups": {
+      "type": "party",
       "location": "NW",
       "party": "AfD"
     },
@@ -45,6 +51,7 @@
   "AfDNRW": {
     "id_str": 1713942204,
     "groups": {
+      "type": "party",
       "location": "NW",
       "party": "AfD"
     },
@@ -53,6 +60,7 @@
   "PiratenNRW": {
     "id_str": 36646869,
     "groups": {
+      "type": "party",
       "location": "NW",
       "party": "Piratenpartei"
     }
