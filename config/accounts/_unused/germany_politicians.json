@@ -4,7 +4,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "agnieszka_mdb": {
@@ -12,7 +12,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "AlexanderSNeu": {
@@ -20,7 +20,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "AndreaLindholz": {
@@ -28,7 +28,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CSU"
     }
   },
   "AMattfeldt": {
@@ -36,7 +36,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "DrAndreasNick": {
@@ -44,15 +44,15 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "SPDDuesseldorf": {
     "id_str": 190210690,
     "verified": 0,
     "groups": {
-      "type": "politician",
-      "party": null
+      "type": "party",
+      "party": "SPD"
     }
   },
   "SPDuesseldorf": {
@@ -60,7 +60,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "schwarz_spd": {
@@ -68,15 +68,16 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
-    }
+      "party": "SPD"
+    },
+    "_comment": "deprecated"
   },
   "Schwarz_MdB": {
     "id_str": 2226815116,
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "AndrejHunko": {
@@ -84,7 +85,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "anjaweisgerber": {
@@ -92,7 +93,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CSU"
     }
   },
   "ABaerbock": {
@@ -100,7 +101,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "Annette_Groth": {
@@ -108,7 +109,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "AnnetteSawade": {
@@ -116,7 +117,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "armin_schuster": {
@@ -124,7 +125,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CUD"
     }
   },
   "Axel_Fischer": {
@@ -132,7 +133,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "oezoguz": {
@@ -140,7 +141,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "baerbelbas": {
@@ -148,7 +149,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "BaerbelHoehn": {
@@ -156,7 +157,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "BaerbelKofler": {
@@ -164,7 +165,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "GrueneBeate": {
@@ -172,7 +173,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "BerndSiebert": {
@@ -180,15 +181,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
-    }
-  },
-  "BernhardKaster": {
-    "id_str": 24674518,
-    "verified": 0,
-    "groups": {
-      "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "BettinaHornhues": {
@@ -196,7 +189,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "malechanissen": {
@@ -204,7 +197,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "BrigittePothmer": {
@@ -212,7 +205,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "brigittezypries": {
@@ -220,7 +213,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "BriHasselmann": {
@@ -228,7 +221,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "LischkaB": {
@@ -236,7 +229,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "CanselK": {
@@ -244,7 +237,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "CarenLay": {
@@ -252,7 +245,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "schneidercar": {
@@ -260,23 +253,24 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "cducsubt": {
     "id_str": 46085533,
     "verified": 1,
     "groups": {
-      "type": "politician",
-      "party": null
-    }
+      "type": "party",
+      "party": "CDU"
+    },
+    "_comment": "Account der Fraktion"
   },
   "ChrisKuehn_mdb": {
     "id_str": 1143130812,
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "ChristianFlisek": {
@@ -284,7 +278,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "ChristianHirte": {
@@ -292,7 +286,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "LangeMdB": {
@@ -300,7 +294,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "c_kampmann": {
@@ -308,7 +302,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "TinaSchwarzer": {
@@ -316,7 +310,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "ch_buchholz": {
@@ -324,7 +318,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "ChStraesser": {
@@ -332,7 +326,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "ctausend": {
@@ -340,7 +334,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "crueffer": {
@@ -348,7 +342,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "Conni_Moehring": {
@@ -356,7 +350,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "dieschmidt": {
@@ -364,7 +358,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "DWoehrl": {
@@ -372,7 +366,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CSU"
     }
   },
   "ZieglerMdB": {
@@ -380,7 +374,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "danielakolbe": {
@@ -388,7 +382,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "DennisRohde": {
@@ -396,7 +390,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "DetlevPilger": {
@@ -404,7 +398,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "GolzeDiana": {
@@ -412,7 +406,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "DJanecek": {
@@ -420,7 +414,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "DieterStier": {
@@ -428,7 +422,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "DietmarBartsch": {
@@ -436,7 +430,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "DorisWagner_MdB": {
@@ -444,7 +438,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "DoroBaer": {
@@ -452,7 +446,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CSU"
     }
   },
   "AndiScheuer": {
@@ -460,7 +454,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CSU"
     }
   },
   "BerndFabritius": {
@@ -468,7 +462,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CSU"
     }
   },
   "Diether_Dehm": {
@@ -476,7 +470,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "edrossmann": {
@@ -484,7 +478,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "EvaHoegl": {
@@ -492,7 +486,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "franksteffel": {
@@ -500,7 +494,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "jungfj": {
@@ -508,7 +502,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "Team_GLoetzsch": {
@@ -516,7 +510,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "GregorGysi": {
@@ -524,7 +518,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "HBraun": {
@@ -532,7 +526,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "georgnuesslein": {
@@ -540,7 +534,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CSU"
     }
   },
   "KonstantinNotz": {
@@ -548,7 +542,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "schroeder_k": {
@@ -556,7 +550,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "MartinRosemann": {
@@ -564,7 +558,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "MatthiasHeider": {
@@ -572,7 +566,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "drmfuchs": {
@@ -580,7 +574,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "meister_schafft": {
@@ -588,7 +582,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "petertauber": {
@@ -596,7 +590,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "Petra_Sitte_MdB": {
@@ -604,7 +598,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "PLengsfeld": {
@@ -612,7 +606,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "RosemarieHein": {
@@ -620,7 +614,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "Dr_Roy_Kuehne": {
@@ -628,7 +622,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "StefanKaufmann": {
@@ -636,7 +630,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "stephanharbarth": {
@@ -644,7 +638,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "drthomasfeist": {
@@ -652,7 +646,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "tobiaslindner": {
@@ -660,7 +654,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "WilmsVal": {
@@ -668,7 +662,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "W_Priesmeier": {
@@ -676,7 +670,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "EckhardtRehberg": {
@@ -684,7 +678,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "FrankeEdgar": {
@@ -692,7 +686,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "ekindeligoez": {
@@ -700,7 +694,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "Elke_Ferner": {
@@ -708,7 +702,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "SteinbachErika": {
@@ -716,7 +710,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "Erwin_Rueddel": {
