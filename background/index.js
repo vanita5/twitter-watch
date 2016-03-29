@@ -1,9 +1,12 @@
 'use strict';
 const MongoClient = require('mongodb').MongoClient,
-    account_configs = require('require-all')(__dirname + '/../config/accounts'),
     twitter_config = require(__dirname + '/../config/twitter'),
     Twit = require('twit'),
-    url = require(__dirname + '/../config/mongo').url;
+    url = require(__dirname + '/../config/mongo').url,
+    account_configs = require('require-all')({
+        dirname: __dirname + '/../config/accounts',
+        recursive: false
+    });
 
 
 const T = new Twit({
