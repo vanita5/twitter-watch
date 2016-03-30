@@ -1,6 +1,6 @@
 {
   "CDU_Hamburg": {
-    "id_str": 467282887,
+    "id_str": "467282887",
     "groups": {
       "type": "party",
       "location": "HH",
@@ -8,7 +8,7 @@
     }
   },
   "spdhh": {
-    "id_str": 20596523,
+    "id_str": "20596523",
     "groups": {
       "type": "party",
       "location": "HH",
@@ -16,7 +16,7 @@
     }
   },
   "GRUENE_Hamburg": {
-    "id_str": 21385546,
+    "id_str": "21385546",
     "groups": {
       "type": "party",
       "location": "HH",
@@ -24,7 +24,7 @@
     }
   },
   "DieLinke_HH": {
-    "id_str": 221513227,
+    "id_str": "221513227",
     "groups": {
       "type": "party",
       "location": "HH",
@@ -32,7 +32,7 @@
     }
   },
   "fdphh": {
-    "id_str": 140438576,
+    "id_str": "140438576",
     "groups": {
       "type": "party",
       "location": "HH",
@@ -41,7 +41,7 @@
     "_comment": "unverified"
   },
   "AfD_Hamburg": {
-    "id_str": 3393740861,
+    "id_str": "3393740861",
     "groups": {
       "type": "party",
       "location": "HH",

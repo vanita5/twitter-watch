@@ -1,6 +1,6 @@
 {
   "cdu_hessen": {
-    "id_str": 15833695,
+    "id_str": "15833695",
     "groups": {
       "type": "party",
       "location": "HE",
@@ -8,7 +8,7 @@
     }
   },
   "hessenSPD": {
-    "id_str": 635466500,
+    "id_str": "635466500",
     "groups": {
       "type": "party",
       "location": "HE",
@@ -16,7 +16,7 @@
     }
   },
   "gruenehessen": {
-    "id_str": 213984085,
+    "id_str": "213984085",
     "groups": {
       "type": "party",
       "location": "HE",
@@ -24,7 +24,7 @@
     }
   },
   "DIELINKEHESSEN": {
-    "id_str": 37434345,
+    "id_str": "37434345",
     "groups": {
       "type": "party",
       "location": "HE",
@@ -33,7 +33,7 @@
     "_comment": "unverified"
   },
   "FDPHessen": {
-    "id_str": 21501043,
+    "id_str": "21501043",
     "groups": {
       "type": "party",
       "location": "HE",
@@ -41,7 +41,7 @@
     }
   },
   "AfD_Hessen": {
-    "id_str": 1414088353,
+    "id_str": "1414088353",
     "groups": {
       "type": "party",
       "location": "HE",

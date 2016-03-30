@@ -1,6 +1,6 @@
 {
   "CDUNds": {
-    "id_str": 16009418,
+    "id_str": "16009418",
     "groups": {
       "type": "party",
       "location": "NI",
@@ -8,7 +8,7 @@
     }
   },
   "SPDNDS": {
-    "id_str": 17483704,
+    "id_str": "17483704",
     "groups": {
       "type": "party",
       "location": "NI",
@@ -16,7 +16,7 @@
     }
   },
   "gruenelvnds": {
-    "id_str": 135814941,
+    "id_str": "135814941",
     "groups": {
       "type": "party",
       "location": "NI",
@@ -24,7 +24,7 @@
     }
   },
   "die_linke_nds": {
-    "id_str": 993560582,
+    "id_str": "993560582",
     "groups": {
       "type": "party",
       "location": "NI",
@@ -33,7 +33,7 @@
     "_comment": "unverified"
   },
   "fdp_nds": {
-    "id_str": 20452963,
+    "id_str": "20452963",
     "groups": {
       "type": "party",
       "location": "NI",

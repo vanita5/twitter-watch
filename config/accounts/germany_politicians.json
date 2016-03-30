@@ -1,6 +1,6 @@
 {
   "Achim_P": {
-    "id_str": 1117749912,
+    "id_str": "1117749912",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -8,7 +8,7 @@
     }
   },
   "agnieszka_mdb": {
-    "id_str": 172269309,
+    "id_str": "172269309",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -16,7 +16,7 @@
     }
   },
   "AlexanderSNeu": {
-    "id_str": 1182878557,
+    "id_str": "1182878557",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -24,7 +24,7 @@
     }
   },
   "AndreaLindholz": {
-    "id_str": 1446031532,
+    "id_str": "1446031532",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -32,7 +32,7 @@
     }
   },
   "AMattfeldt": {
-    "id_str": 23447001,
+    "id_str": "23447001",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -40,7 +40,7 @@
     }
   },
   "DrAndreasNick": {
-    "id_str": 49450039,
+    "id_str": "49450039",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -48,7 +48,7 @@
     }
   },
   "SPDDuesseldorf": {
-    "id_str": 190210690,
+    "id_str": "190210690",
     "verified": 0,
     "groups": {
       "type": "party",
@@ -56,7 +56,7 @@
     }
   },
   "SPDuesseldorf": {
-    "id_str": 30838821,
+    "id_str": "30838821",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -64,7 +64,7 @@
     }
   },
   "schwarz_spd": {
-    "id_str": 53617577,
+    "id_str": "53617577",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -73,7 +73,7 @@
     "_comment": "deprecated"
   },
   "Schwarz_MdB": {
-    "id_str": 2226815116,
+    "id_str": "2226815116",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -81,7 +81,7 @@
     }
   },
   "AndrejHunko": {
-    "id_str": 87281380,
+    "id_str": "87281380",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -89,7 +89,7 @@
     }
   },
   "anjaweisgerber": {
-    "id_str": 133770069,
+    "id_str": "133770069",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -97,7 +97,7 @@
     }
   },
   "ABaerbock": {
-    "id_str": 2179010672,
+    "id_str": "2179010672",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -105,7 +105,7 @@
     }
   },
   "Annette_Groth": {
-    "id_str": 431503846,
+    "id_str": "431503846",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -113,7 +113,7 @@
     }
   },
   "AnnetteSawade": {
-    "id_str": 1192966249,
+    "id_str": "1192966249",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -121,7 +121,7 @@
     }
   },
   "armin_schuster": {
-    "id_str": 395912134,
+    "id_str": "395912134",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -129,7 +129,7 @@
     }
   },
   "Axel_Fischer": {
-    "id_str": 160906608,
+    "id_str": "160906608",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -137,7 +137,7 @@
     }
   },
   "oezoguz": {
-    "id_str": 83342791,
+    "id_str": "83342791",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -145,7 +145,7 @@
     }
   },
   "baerbelbas": {
-    "id_str": 19438957,
+    "id_str": "19438957",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -153,7 +153,7 @@
     }
   },
   "BaerbelHoehn": {
-    "id_str": 22900494,
+    "id_str": "22900494",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -161,7 +161,7 @@
     }
   },
   "BaerbelKofler": {
-    "id_str": 193629792,
+    "id_str": "193629792",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -169,7 +169,7 @@
     }
   },
   "GrueneBeate": {
-    "id_str": 53426644,
+    "id_str": "53426644",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -177,7 +177,7 @@
     }
   },
   "BerndSiebert": {
-    "id_str": 24674518,
+    "id_str": "24674518",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -185,7 +185,7 @@
     }
   },
   "BettinaHornhues": {
-    "id_str": 275204467,
+    "id_str": "275204467",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -193,7 +193,7 @@
     }
   },
   "malechanissen": {
-    "id_str": 1230819176,
+    "id_str": "1230819176",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -201,7 +201,7 @@
     }
   },
   "BrigittePothmer": {
-    "id_str": 68394879,
+    "id_str": "68394879",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -209,7 +209,7 @@
     }
   },
   "brigittezypries": {
-    "id_str": 574472515,
+    "id_str": "574472515",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -217,7 +217,7 @@
     }
   },
   "BriHasselmann": {
-    "id_str": 1131092102,
+    "id_str": "1131092102",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -225,7 +225,7 @@
     }
   },
   "LischkaB": {
-    "id_str": 36665085,
+    "id_str": "36665085",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -233,7 +233,7 @@
     }
   },
   "CanselK": {
-    "id_str": 23248102,
+    "id_str": "23248102",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -241,7 +241,7 @@
     }
   },
   "CarenLay": {
-    "id_str": 21404382,
+    "id_str": "21404382",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -249,7 +249,7 @@
     }
   },
   "schneidercar": {
-    "id_str": 96783215,
+    "id_str": "96783215",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -257,7 +257,7 @@
     }
   },
   "cducsubt": {
-    "id_str": 46085533,
+    "id_str": "46085533",
     "verified": 1,
     "groups": {
       "type": "party",
@@ -266,7 +266,7 @@
     "_comment": "Account der Fraktion im Bundestag"
   },
   "ChrisKuehn_mdb": {
-    "id_str": 1143130812,
+    "id_str": "1143130812",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -274,7 +274,7 @@
     }
   },
   "ChristianFlisek": {
-    "id_str": 2469449068,
+    "id_str": "2469449068",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -282,7 +282,7 @@
     }
   },
   "ChristianHirte": {
-    "id_str": 37642893,
+    "id_str": "37642893",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -290,7 +290,7 @@
     }
   },
   "LangeMdB": {
-    "id_str": 328939758,
+    "id_str": "328939758",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -298,7 +298,7 @@
     }
   },
   "c_kampmann": {
-    "id_str": 1037134387,
+    "id_str": "1037134387",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -306,7 +306,7 @@
     }
   },
   "TinaSchwarzer": {
-    "id_str": 359327259,
+    "id_str": "359327259",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -314,7 +314,7 @@
     }
   },
   "ch_buchholz": {
-    "id_str": 426403057,
+    "id_str": "426403057",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -322,7 +322,7 @@
     }
   },
   "ChStraesser": {
-    "id_str": 1509832074,
+    "id_str": "1509832074",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -330,7 +330,7 @@
     }
   },
   "ctausend": {
-    "id_str": 76698314,
+    "id_str": "76698314",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -338,7 +338,7 @@
     }
   },
   "crueffer": {
-    "id_str": 1524735194,
+    "id_str": "1524735194",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -346,7 +346,7 @@
     }
   },
   "Conni_Moehring": {
-    "id_str": 2596171296,
+    "id_str": "2596171296",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -354,7 +354,7 @@
     }
   },
   "dieschmidt": {
-    "id_str": 95905207,
+    "id_str": "95905207",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -362,7 +362,7 @@
     }
   },
   "DWoehrl": {
-    "id_str": 28525166,
+    "id_str": "28525166",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -370,7 +370,7 @@
     }
   },
   "ZieglerMdB": {
-    "id_str": 2290961736,
+    "id_str": "2290961736",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -378,7 +378,7 @@
     }
   },
   "danielakolbe": {
-    "id_str": 516783036,
+    "id_str": "516783036",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -386,7 +386,7 @@
     }
   },
   "DennisRohde": {
-    "id_str": 18160122,
+    "id_str": "18160122",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -394,7 +394,7 @@
     }
   },
   "DetlevPilger": {
-    "id_str": 535373865,
+    "id_str": "535373865",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -402,7 +402,7 @@
     }
   },
   "GolzeDiana": {
-    "id_str": 625799912,
+    "id_str": "625799912",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -410,7 +410,7 @@
     }
   },
   "DJanecek": {
-    "id_str": 52024480,
+    "id_str": "52024480",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -418,7 +418,7 @@
     }
   },
   "DieterStier": {
-    "id_str": 560931535,
+    "id_str": "560931535",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -426,7 +426,7 @@
     }
   },
   "DietmarBartsch": {
-    "id_str": 2320519958,
+    "id_str": "2320519958",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -434,7 +434,7 @@
     }
   },
   "DorisWagner_MdB": {
-    "id_str": 2230052774,
+    "id_str": "2230052774",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -442,7 +442,7 @@
     }
   },
   "DoroBaer": {
-    "id_str": 140821364,
+    "id_str": "140821364",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -450,7 +450,7 @@
     }
   },
   "AndiScheuer": {
-    "id_str": 50315139,
+    "id_str": "50315139",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -458,7 +458,7 @@
     }
   },
   "BerndFabritius": {
-    "id_str": 493229926,
+    "id_str": "493229926",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -466,7 +466,7 @@
     }
   },
   "Diether_Dehm": {
-    "id_str": 20986770,
+    "id_str": "20986770",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -474,7 +474,7 @@
     }
   },
   "edrossmann": {
-    "id_str": 38645930,
+    "id_str": "38645930",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -482,7 +482,7 @@
     }
   },
   "EvaHoegl": {
-    "id_str": 35846585,
+    "id_str": "35846585",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -490,7 +490,7 @@
     }
   },
   "franksteffel": {
-    "id_str": 26869088,
+    "id_str": "26869088",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -498,7 +498,7 @@
     }
   },
   "jungfj": {
-    "id_str": 860067295,
+    "id_str": "860067295",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -506,7 +506,7 @@
     }
   },
   "Team_GLoetzsch": {
-    "id_str": 24178198,
+    "id_str": "24178198",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -514,7 +514,7 @@
     }
   },
   "GregorGysi": {
-    "id_str": 888289790,
+    "id_str": "888289790",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -522,7 +522,7 @@
     }
   },
   "HBraun": {
-    "id_str": 19108071,
+    "id_str": "19108071",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -530,7 +530,7 @@
     }
   },
   "georgnuesslein": {
-    "id_str": 1630247738,
+    "id_str": "1630247738",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -538,7 +538,7 @@
     }
   },
   "KonstantinNotz": {
-    "id_str": 17752770,
+    "id_str": "17752770",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -546,7 +546,7 @@
     }
   },
   "schroeder_k": {
-    "id_str": 18761526,
+    "id_str": "18761526",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -554,7 +554,7 @@
     }
   },
   "MartinRosemann": {
-    "id_str": 28784085,
+    "id_str": "28784085",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -562,7 +562,7 @@
     }
   },
   "MatthiasHeider": {
-    "id_str": 154064825,
+    "id_str": "154064825",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -570,7 +570,7 @@
     }
   },
   "drmfuchs": {
-    "id_str": 56670083,
+    "id_str": "56670083",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -578,7 +578,7 @@
     }
   },
   "meister_schafft": {
-    "id_str": 34214048,
+    "id_str": "34214048",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -586,7 +586,7 @@
     }
   },
   "petertauber": {
-    "id_str": 22260144,
+    "id_str": "22260144",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -594,7 +594,7 @@
     }
   },
   "Petra_Sitte_MdB": {
-    "id_str": 293522998,
+    "id_str": "293522998",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -602,7 +602,7 @@
     }
   },
   "PLengsfeld": {
-    "id_str": 2166255624,
+    "id_str": "2166255624",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -610,7 +610,7 @@
     }
   },
   "RosemarieHein": {
-    "id_str": 73468394,
+    "id_str": "73468394",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -618,7 +618,7 @@
     }
   },
   "Dr_Roy_Kuehne": {
-    "id_str": 1906911697,
+    "id_str": "1906911697",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -626,7 +626,7 @@
     }
   },
   "StefanKaufmann": {
-    "id_str": 51752254,
+    "id_str": "51752254",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -634,7 +634,7 @@
     }
   },
   "stephanharbarth": {
-    "id_str": 56762889,
+    "id_str": "56762889",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -642,7 +642,7 @@
     }
   },
   "drthomasfeist": {
-    "id_str": 47990090,
+    "id_str": "47990090",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -650,7 +650,7 @@
     }
   },
   "tobiaslindner": {
-    "id_str": 21197524,
+    "id_str": "21197524",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -658,7 +658,7 @@
     }
   },
   "WilmsVal": {
-    "id_str": 396069600,
+    "id_str": "396069600",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -666,7 +666,7 @@
     }
   },
   "W_Priesmeier": {
-    "id_str": 62457691,
+    "id_str": "62457691",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -674,7 +674,7 @@
     }
   },
   "EckhardtRehberg": {
-    "id_str": 39485791,
+    "id_str": "39485791",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -682,7 +682,7 @@
     }
   },
   "FrankeEdgar": {
-    "id_str": 481393623,
+    "id_str": "481393623",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -690,7 +690,7 @@
     }
   },
   "ekindeligoez": {
-    "id_str": 22125770,
+    "id_str": "22125770",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -698,7 +698,7 @@
     }
   },
   "Elke_Ferner": {
-    "id_str": 26203837,
+    "id_str": "26203837",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -706,7 +706,7 @@
     }
   },
   "SteinbachErika": {
-    "id_str": 425845268,
+    "id_str": "425845268",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -714,7 +714,7 @@
     }
   },
   "Erwin_Rueddel": {
-    "id_str": 33071479,
+    "id_str": "33071479",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -722,7 +722,7 @@
     }
   },
   "hahnflo": {
-    "id_str": 403735368,
+    "id_str": "403735368",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -730,7 +730,7 @@
     }
   },
   "FlorianPost": {
-    "id_str": 741532130,
+    "id_str": "741532130",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -738,7 +738,7 @@
     }
   },
   "FlorianPronold": {
-    "id_str": 19257571,
+    "id_str": "19257571",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -746,7 +746,7 @@
     }
   },
   "FrankHeinrich": {
-    "id_str": 43959185,
+    "id_str": "43959185",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -754,7 +754,7 @@
     }
   },
   "FrankSchwabe": {
-    "id_str": 30050484,
+    "id_str": "30050484",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -762,7 +762,7 @@
     }
   },
   "fbrantner": {
-    "id_str": 32323724,
+    "id_str": "32323724",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -770,7 +770,7 @@
     }
   },
   "FOstendorff": {
-    "id_str": 862714045,
+    "id_str": "862714045",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -778,7 +778,7 @@
     }
   },
   "GabiWeberSPD": {
-    "id_str": 992808439,
+    "id_str": "992808439",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -786,7 +786,7 @@
     }
   },
   "GabiHillerOhm": {
-    "id_str": 25816024,
+    "id_str": "25816024",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -794,7 +794,7 @@
     }
   },
   "GabiKatzmarek": {
-    "id_str": 1106401321,
+    "id_str": "1106401321",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -802,7 +802,7 @@
     }
   },
   "gero_storjohann": {
-    "id_str": 20534846,
+    "id_str": "20534846",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -810,7 +810,7 @@
     }
   },
   "g_reichenbach": {
-    "id_str": 277587918,
+    "id_str": "277587918",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -818,7 +818,7 @@
     }
   },
   "GrueneBundestag": {
-    "id_str": 24725119,
+    "id_str": "24725119",
     "verified": 1,
     "groups": {
       "type": "party",
@@ -827,7 +827,7 @@
     "_comment": "Account der Fraktion im Bundestag"
   },
   "guenterkrings": {
-    "id_str": 392312829,
+    "id_str": "392312829",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -835,7 +835,7 @@
     }
   },
   "Halina_Waw": {
-    "id_str": 18866407,
+    "id_str": "18866407",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -843,7 +843,7 @@
     }
   },
   "MdB_Stroebele": {
-    "id_str": 304342650,
+    "id_str": "304342650",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -851,7 +851,7 @@
     }
   },
   "fuchtel": {
-    "id_str": 66750542,
+    "id_str": "66750542",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -859,7 +859,7 @@
     }
   },
   "HPetzold": {
-    "id_str": 377925526,
+    "id_str": "377925526",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -867,7 +867,7 @@
     }
   },
   "ebner_sha": {
-    "id_str": 52431948,
+    "id_str": "52431948",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -875,7 +875,7 @@
     }
   },
   "terpeundteam": {
-    "id_str": 40451562,
+    "id_str": "40451562",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -883,7 +883,7 @@
     }
   },
   "HaraldWeinberg": {
-    "id_str": 625642009,
+    "id_str": "625642009",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -891,7 +891,7 @@
     }
   },
   "koschyk": {
-    "id_str": 64377390,
+    "id_str": "64377390",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -899,7 +899,7 @@
     }
   },
   "HeikeBrehmerMdB": {
-    "id_str": 150372237,
+    "id_str": "150372237",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -907,7 +907,7 @@
     }
   },
   "HeikeHaensel": {
-    "id_str": 332264734,
+    "id_str": "332264734",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -915,7 +915,7 @@
     }
   },
   "Helmut_Nowak": {
-    "id_str": 1120117190,
+    "id_str": "1120117190",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -923,7 +923,7 @@
     }
   },
   "HerbertBehrens": {
-    "id_str": 573861390,
+    "id_str": "573861390",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -931,7 +931,7 @@
     }
   },
   "HHirte": {
-    "id_str": 1513671236,
+    "id_str": "1513671236",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -939,7 +939,7 @@
     }
   },
   "HGundelach": {
-    "id_str": 550951920,
+    "id_str": "550951920",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -947,7 +947,7 @@
     }
   },
   "groehe": {
-    "id_str": 94363834,
+    "id_str": "94363834",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -955,7 +955,7 @@
     }
   },
   "HildeMattheis": {
-    "id_str": 115614153,
+    "id_str": "115614153",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -963,7 +963,7 @@
     }
   },
   "hubertus_heil": {
-    "id_str": 15943222,
+    "id_str": "15943222",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -971,7 +971,7 @@
     }
   },
   "Wellenreuther": {
-    "id_str": 54535670,
+    "id_str": "54535670",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -979,7 +979,7 @@
     }
   },
   "IreneMihalic": {
-    "id_str": 143000381,
+    "id_str": "143000381",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -987,7 +987,7 @@
     }
   },
   "JanMetzler": {
-    "id_str": 995653004,
+    "id_str": "995653004",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -995,7 +995,7 @@
     }
   },
   "jan_vanaken": {
-    "id_str": 936486542,
+    "id_str": "936486542",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1003,7 +1003,7 @@
     }
   },
   "JanaSchimke": {
-    "id_str": 728990858,
+    "id_str": "728990858",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1011,7 +1011,7 @@
     }
   },
   "JensKoeppen": {
-    "id_str": 146376562,
+    "id_str": "146376562",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1019,7 +1019,7 @@
     }
   },
   "jensspahn": {
-    "id_str": 299650387,
+    "id_str": "299650387",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1027,7 +1027,7 @@
     }
   },
   "JensZimmermann1": {
-    "id_str": 449619355,
+    "id_str": "449619355",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1035,7 +1035,7 @@
     }
   },
   "JoSteiniger": {
-    "id_str": 83474160,
+    "id_str": "83474160",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1043,7 +1043,7 @@
     }
   },
   "kahrs": {
-    "id_str": 35687457,
+    "id_str": "35687457",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1051,7 +1051,7 @@
     }
   },
   "JohannesSingham": {
-    "id_str": 542415865,
+    "id_str": "542415865",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1059,7 +1059,7 @@
     }
   },
   "Julia_Obermeier": {
-    "id_str": 2175692210,
+    "id_str": "2175692210",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1067,7 +1067,7 @@
     }
   },
   "julia_verlinden": {
-    "id_str": 1475734592,
+    "id_str": "1475734592",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1075,7 +1075,7 @@
     }
   },
   "juergenhardt": {
-    "id_str": 38467606,
+    "id_str": "38467606",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1083,7 +1083,7 @@
     }
   },
   "Klimke_CDU": {
-    "id_str": 47698123,
+    "id_str": "47698123",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1091,7 +1091,7 @@
     }
   },
   "JTrittin": {
-    "id_str": 485751594,
+    "id_str": "485751594",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1099,7 +1099,7 @@
     }
   },
   "JuttaKrellmann": {
-    "id_str": 600984834,
+    "id_str": "600984834",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1107,7 +1107,7 @@
     }
   },
   "KaiGehring": {
-    "id_str": 110368456,
+    "id_str": "110368456",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1115,7 +1115,7 @@
     }
   },
   "kaiwegner": {
-    "id_str": 39999872,
+    "id_str": "39999872",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1123,7 +1123,7 @@
     }
   },
   "KarambaDiaby": {
-    "id_str": 316355056,
+    "id_str": "316355056",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1131,7 +1131,7 @@
     }
   },
   "karinbinder": {
-    "id_str": 22142658,
+    "id_str": "22142658",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1139,7 +1139,7 @@
     }
   },
   "charlesmhuber49": {
-    "id_str": 81142025,
+    "id_str": "81142025",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1147,7 +1147,7 @@
     }
   },
   "KarstenMoering": {
-    "id_str": 1099159964,
+    "id_str": "1099159964",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1155,7 +1155,7 @@
     }
   },
   "katdro": {
-    "id_str": 15722010,
+    "id_str": "15722010",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1163,7 +1163,7 @@
     }
   },
   "voglerk": {
-    "id_str": 21287514,
+    "id_str": "21287514",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1171,7 +1171,7 @@
     }
   },
   "katjadoerner": {
-    "id_str": 19738866,
+    "id_str": "19738866",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1179,7 +1179,7 @@
     }
   },
   "KLeikert": {
-    "id_str": 467381196,
+    "id_str": "467381196",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1187,7 +1187,7 @@
     }
   },
   "katjakipping": {
-    "id_str": 28066013,
+    "id_str": "28066013",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1195,7 +1195,7 @@
     }
   },
   "dieAlbsteigerin": {
-    "id_str": 429357796,
+    "id_str": "429357796",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1203,7 +1203,7 @@
     }
   },
   "GoeringEckardt": {
-    "id_str": 626287930,
+    "id_str": "626287930",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1211,7 +1211,7 @@
     }
   },
   "Katrin_Werner": {
-    "id_str": 224630872,
+    "id_str": "224630872",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1219,7 +1219,7 @@
     }
   },
   "KerstinAndreae": {
-    "id_str": 41548943,
+    "id_str": "41548943",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1227,7 +1227,7 @@
     }
   },
   "KerstinGriese": {
-    "id_str": 39709752,
+    "id_str": "39709752",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1235,7 +1235,7 @@
     }
   },
   "kerstin_tack": {
-    "id_str": 37733252,
+    "id_str": "37733252",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1243,7 +1243,7 @@
     }
   },
   "KirstenTackmann": {
-    "id_str": 1294725486,
+    "id_str": "1294725486",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1251,7 +1251,7 @@
     }
   },
   "ernst_klaus": {
-    "id_str": 64994645,
+    "id_str": "64994645",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1259,7 +1259,7 @@
     }
   },
   "K_SA": {
-    "id_str": 17870195,
+    "id_str": "17870195",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1267,7 +1267,7 @@
     }
   },
   "larscastellucci": {
-    "id_str": 17469649,
+    "id_str": "17469649",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1275,7 +1275,7 @@
     }
   },
   "larsklingbeil": {
-    "id_str": 16255941,
+    "id_str": "16255941",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1283,7 +1283,7 @@
     }
   },
   "Linksfraktion": {
-    "id_str": 18933321,
+    "id_str": "18933321",
     "verified": 1,
     "groups": {
       "type": "party",
@@ -1292,7 +1292,7 @@
     "_comment": "Account der Fraktion im Bundestag"
   },
   "lisapaus": {
-    "id_str": 569166756,
+    "id_str": "569166756",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1300,7 +1300,7 @@
     }
   },
   "Luise_Amtsberg": {
-    "id_str": 126058461,
+    "id_str": "126058461",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1308,7 +1308,7 @@
     }
   },
   "oezdemir_spd": {
-    "id_str": 1399764944,
+    "id_str": "1399764944",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1316,7 +1316,7 @@
     }
   },
   "MaikBeermann": {
-    "id_str": 569257486,
+    "id_str": "569257486",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1324,7 +1324,7 @@
     }
   },
   "Manfredbehrens": {
-    "id_str": 61577387,
+    "id_str": "61577387",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1332,7 +1332,7 @@
     }
   },
   "manfred_grund": {
-    "id_str": 18935360,
+    "id_str": "18935360",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1340,7 +1340,7 @@
     }
   },
   "ManuelSarrazin": {
-    "id_str": 17922403,
+    "id_str": "17922403",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1348,7 +1348,7 @@
     }
   },
   "marcobuelow": {
-    "id_str": 52119203,
+    "id_str": "52119203",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1356,7 +1356,7 @@
     }
   },
   "wanderwitz": {
-    "id_str": 16361044,
+    "id_str": "16361044",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1364,7 +1364,7 @@
     }
   },
   "MarcusWeinberg": {
-    "id_str": 884382990,
+    "id_str": "884382990",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1372,7 +1372,7 @@
     }
   },
   "MariaKlSchmeink": {
-    "id_str": 18103366,
+    "id_str": "18103366",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1380,7 +1380,7 @@
     }
   },
   "MarieluiseBeck": {
-    "id_str": 763549040,
+    "id_str": "763549040",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1388,7 +1388,7 @@
     }
   },
   "MarkHauptmann": {
-    "id_str": 1370491088,
+    "id_str": "1370491088",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1396,7 +1396,7 @@
     }
   },
   "markuskurthmdb": {
-    "id_str": 150188536,
+    "id_str": "150188536",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1404,7 +1404,7 @@
     }
   },
   "marlenemortler": {
-    "id_str": 21579707,
+    "id_str": "21579707",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1412,7 +1412,7 @@
     }
   },
   "MartinRabanus": {
-    "id_str": 46356949,
+    "id_str": "46356949",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1420,7 +1420,7 @@
     }
   },
   "MartinaRenner": {
-    "id_str": 68920005,
+    "id_str": "68920005",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1428,7 +1428,7 @@
     }
   },
   "MatthiasHauer": {
-    "id_str": 1158585210,
+    "id_str": "1158585210",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1436,7 +1436,7 @@
     }
   },
   "MatthiasIlgen": {
-    "id_str": 2156382000,
+    "id_str": "2156382000",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1444,7 +1444,7 @@
     }
   },
   "MatthiasLietz": {
-    "id_str": 508645493,
+    "id_str": "508645493",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1452,7 +1452,7 @@
     }
   },
   "MWBirkwald": {
-    "id_str": 748851762,
+    "id_str": "748851762",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1460,7 +1460,7 @@
     }
   },
   "MechthildHeil": {
-    "id_str": 974367631,
+    "id_str": "974367631",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1468,7 +1468,7 @@
     }
   },
   "MechthildRawert": {
-    "id_str": 37438947,
+    "id_str": "37438947",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1476,7 +1476,7 @@
     }
   },
   "MetinHakverdi": {
-    "id_str": 1043288618,
+    "id_str": "1043288618",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1484,7 +1484,7 @@
     }
   },
   "MGrosseBroemer": {
-    "id_str": 574424501,
+    "id_str": "574424501",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1492,7 +1492,7 @@
     }
   },
   "HartmannMdB": {
-    "id_str": 434884982,
+    "id_str": "434884982",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1500,7 +1500,7 @@
     }
   },
   "kretsc": {
-    "id_str": 393264968,
+    "id_str": "393264968",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1508,7 +1508,7 @@
     }
   },
   "MichaelLeutert": {
-    "id_str": 93612750,
+    "id_str": "93612750",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1516,7 +1516,7 @@
     }
   },
   "MiRo_SPD": {
-    "id_str": 1114675538,
+    "id_str": "1114675538",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1524,7 +1524,7 @@
     }
   },
   "mschlecht": {
-    "id_str": 151173601,
+    "id_str": "151173601",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1532,7 +1532,7 @@
     }
   },
   "michael_thews": {
-    "id_str": 409258073,
+    "id_str": "409258073",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1540,7 +1540,7 @@
     }
   },
   "michaelaengel": {
-    "id_str": 26713568,
+    "id_str": "26713568",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1548,7 +1548,7 @@
     }
   },
   "monikalazar": {
-    "id_str": 60630139,
+    "id_str": "60630139",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1556,7 +1556,7 @@
     }
   },
   "NadineSchoen": {
-    "id_str": 41840905,
+    "id_str": "41840905",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1564,7 +1564,7 @@
     }
   },
   "NicoleGohlke": {
-    "id_str": 866425075,
+    "id_str": "866425075",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1572,7 +1572,7 @@
     }
   },
   "NicoleMaisch": {
-    "id_str": 18723339,
+    "id_str": "18723339",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1580,7 +1580,7 @@
     }
   },
   "NielsAnnen": {
-    "id_str": 42401449,
+    "id_str": "42401449",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1588,7 +1588,7 @@
     }
   },
   "NiemaMovassat": {
-    "id_str": 111054843,
+    "id_str": "111054843",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1596,7 +1596,7 @@
     }
   },
   "ninawarken": {
-    "id_str": 65413134,
+    "id_str": "65413134",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1604,7 +1604,7 @@
     }
   },
   "olavgutting": {
-    "id_str": 58429842,
+    "id_str": "58429842",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1612,7 +1612,7 @@
     }
   },
   "KaczmarekOliver": {
-    "id_str": 231440493,
+    "id_str": "231440493",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1620,7 +1620,7 @@
     }
   },
   "Oliver_Krischer": {
-    "id_str": 88630242,
+    "id_str": "88630242",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1628,7 +1628,7 @@
     }
   },
   "nouripour": {
-    "id_str": 16674128,
+    "id_str": "16674128",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1636,7 +1636,7 @@
     }
   },
   "OezcanMutlu": {
-    "id_str": 73088949,
+    "id_str": "73088949",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1644,7 +1644,7 @@
     }
   },
   "PSchnieder": {
-    "id_str": 368334555,
+    "id_str": "368334555",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1652,7 +1652,7 @@
     }
   },
   "PatrickSensburg": {
-    "id_str": 43537931,
+    "id_str": "43537931",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1660,7 +1660,7 @@
     }
   },
   "peersteinbrueck": {
-    "id_str": 856641566,
+    "id_str": "856641566",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1668,7 +1668,7 @@
     }
   },
   "peteraltmaier": {
-    "id_str": 378693834,
+    "id_str": "378693834",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1676,7 +1676,7 @@
     }
   },
   "PeterbeyerCDU": {
-    "id_str": 69814084,
+    "id_str": "69814084",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1684,7 +1684,7 @@
     }
   },
   "PeterMeiwald": {
-    "id_str": 19464497,
+    "id_str": "19464497",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1692,7 +1692,7 @@
     }
   },
   "PErnstberger": {
-    "id_str": 408506969,
+    "id_str": "408506969",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1700,7 +1700,7 @@
     }
   },
   "PetraPauMaHe": {
-    "id_str": 560467206,
+    "id_str": "560467206",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1708,7 +1708,7 @@
     }
   },
   "Missfelder": {
-    "id_str": 20677269,
+    "id_str": "20677269",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1716,7 +1716,7 @@
     }
   },
   "PriskaHinz": {
-    "id_str": 64998836,
+    "id_str": "64998836",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1724,7 +1724,7 @@
     }
   },
   "matthiaszimmer": {
-    "id_str": 52994606,
+    "id_str": "52994606",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1732,7 +1732,7 @@
     }
   },
   "rainerarnold": {
-    "id_str": 56990207,
+    "id_str": "56990207",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1740,7 +1740,7 @@
     }
   },
   "rainerspiering": {
-    "id_str": 18668620,
+    "id_str": "18668620",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1748,7 +1748,7 @@
     }
   },
   "rbrinkhaus": {
-    "id_str": 38001527,
+    "id_str": "38001527",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1756,7 +1756,7 @@
     }
   },
   "RenateKuenast": {
-    "id_str": 1425265488,
+    "id_str": "1425265488",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1764,7 +1764,7 @@
     }
   },
   "reneroespel": {
-    "id_str": 213663314,
+    "id_str": "213663314",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1772,7 +1772,7 @@
     }
   },
   "rischwasu": {
-    "id_str": 50932086,
+    "id_str": "50932086",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1780,7 +1780,7 @@
     }
   },
   "RKiesewetter": {
-    "id_str": 42698498,
+    "id_str": "42698498",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1788,7 +1788,7 @@
     }
   },
   "RuedigerKruse": {
-    "id_str": 20916357,
+    "id_str": "20916357",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1796,7 +1796,7 @@
     }
   },
   "Sabine_Baetzing": {
-    "id_str": 281941547,
+    "id_str": "281941547",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1804,7 +1804,7 @@
     }
   },
   "SabineLeidig": {
-    "id_str": 257461232,
+    "id_str": "257461232",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1812,7 +1812,7 @@
     }
   },
   "SWagenknecht": {
-    "id_str": 47375691,
+    "id_str": "47375691",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1820,7 +1820,7 @@
     }
   },
   "EskenSaskia": {
-    "id_str": 1423622834,
+    "id_str": "1423622834",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1828,7 +1828,7 @@
     }
   },
   "sebast_hartmann": {
-    "id_str": 1076269195,
+    "id_str": "1076269195",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1836,7 +1836,7 @@
     }
   },
   "SteinekeCDU": {
-    "id_str": 277006619,
+    "id_str": "277006619",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1844,7 +1844,7 @@
     }
   },
   "SevimDagdelen": {
-    "id_str": 139407967,
+    "id_str": "139407967",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1852,7 +1852,7 @@
     }
   },
   "SibyllePfeiffer": {
-    "id_str": 574528123,
+    "id_str": "574528123",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1860,7 +1860,7 @@
     }
   },
   "sigmargabriel": {
-    "id_str": 569832889,
+    "id_str": "569832889",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1868,7 +1868,7 @@
     }
   },
   "SoenkeRix": {
-    "id_str": 36327895,
+    "id_str": "36327895",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1876,7 +1876,7 @@
     }
   },
   "soerenbartol": {
-    "id_str": 57293969,
+    "id_str": "57293969",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1884,7 +1884,7 @@
     }
   },
   "spdbt": {
-    "id_str": 347792540,
+    "id_str": "347792540",
     "verified": 1,
     "groups": {
       "type": "party",
@@ -1893,7 +1893,7 @@
     "_comment": "Account der Fraktion im Bundestag"
   },
   "berlinliebich": {
-    "id_str": 1065899292,
+    "id_str": "1065899292",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1901,7 +1901,7 @@
     }
   },
   "smuellermdb": {
-    "id_str": 17960911,
+    "id_str": "17960911",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1909,7 +1909,7 @@
     }
   },
   "RebmannMdB": {
-    "id_str": 313213943,
+    "id_str": "313213943",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1917,7 +1917,7 @@
     }
   },
   "s_schwartze": {
-    "id_str": 1117526742,
+    "id_str": "1117526742",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1925,7 +1925,7 @@
     }
   },
   "SteffenBilger": {
-    "id_str": 23925041,
+    "id_str": "23925041",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1933,7 +1933,7 @@
     }
   },
   "steffenkanitz": {
-    "id_str": 63244000,
+    "id_str": "63244000",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1941,7 +1941,7 @@
     }
   },
   "SCLemme": {
-    "id_str": 26102710,
+    "id_str": "26102710",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1949,7 +1949,7 @@
     }
   },
   "SteffiLemke": {
-    "id_str": 17229513,
+    "id_str": "17229513",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1957,7 +1957,7 @@
     }
   },
   "stephankuehn": {
-    "id_str": 104100946,
+    "id_str": "104100946",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1965,7 +1965,7 @@
     }
   },
   "SusannRuethrich": {
-    "id_str": 1461997548,
+    "id_str": "1461997548",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1973,7 +1973,7 @@
     }
   },
   "SuzaKarawanskij": {
-    "id_str": 892779458,
+    "id_str": "892779458",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -1981,7 +1981,7 @@
     }
   },
   "sven_kindler": {
-    "id_str": 17343047,
+    "id_str": "17343047",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1989,7 +1989,7 @@
     }
   },
   "SvenVolmering": {
-    "id_str": 332698790,
+    "id_str": "332698790",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -1997,7 +1997,7 @@
     }
   },
   "swenschulz": {
-    "id_str": 21791639,
+    "id_str": "21791639",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2005,7 +2005,7 @@
     }
   },
   "BabettesChefin": {
-    "id_str": 474013625,
+    "id_str": "474013625",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2013,7 +2013,7 @@
     }
   },
   "SylviaPantel": {
-    "id_str": 1082464339,
+    "id_str": "1082464339",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2021,7 +2021,7 @@
     }
   },
   "TabeaRoessner": {
-    "id_str": 53351462,
+    "id_str": "53351462",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2029,7 +2029,7 @@
     }
   },
   "TSchipanski": {
-    "id_str": 39938182,
+    "id_str": "39938182",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2037,7 +2037,7 @@
     }
   },
   "thomasgebhart": {
-    "id_str": 51483238,
+    "id_str": "51483238",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2045,7 +2045,7 @@
     }
   },
   "ThomasHitschler": {
-    "id_str": 292151515,
+    "id_str": "292151515",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -2053,7 +2053,7 @@
     }
   },
   "tj_tweets": {
-    "id_str": 37105136,
+    "id_str": "37105136",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2061,7 +2061,7 @@
     }
   },
   "NordMdb": {
-    "id_str": 1421571306,
+    "id_str": "1421571306",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -2069,7 +2069,7 @@
     }
   },
   "ThomasOppermann": {
-    "id_str": 293066780,
+    "id_str": "293066780",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2077,7 +2077,7 @@
     }
   },
   "TinoSorge": {
-    "id_str": 110385973,
+    "id_str": "110385973",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -2085,7 +2085,7 @@
     }
   },
   "TobiasZech": {
-    "id_str": 1720247887,
+    "id_str": "1720247887",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2093,7 +2093,7 @@
     }
   },
   "KoenigsGruen": {
-    "id_str": 399988476,
+    "id_str": "399988476",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2101,7 +2101,7 @@
     }
   },
   "UliFreese": {
-    "id_str": 2317202160,
+    "id_str": "2317202160",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -2109,7 +2109,7 @@
     }
   },
   "ulle_schauws": {
-    "id_str": 17363943,
+    "id_str": "17363943",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2117,7 +2117,7 @@
     }
   },
   "UlliNissen": {
-    "id_str": 382044198,
+    "id_str": "382044198",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -2125,7 +2125,7 @@
     }
   },
   "UlrichKelber": {
-    "id_str": 20877217,
+    "id_str": "20877217",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2133,7 +2133,7 @@
     }
   },
   "UteVogt": {
-    "id_str": 106684561,
+    "id_str": "106684561",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2141,7 +2141,7 @@
     }
   },
   "UweKekeritz": {
-    "id_str": 46480553,
+    "id_str": "46480553",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -2149,7 +2149,7 @@
     }
   },
   "UweSchummer": {
-    "id_str": 409203792,
+    "id_str": "409203792",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2157,7 +2157,7 @@
     }
   },
   "Volker_Beck": {
-    "id_str": 16337664,
+    "id_str": "16337664",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2165,7 +2165,7 @@
     }
   },
   "VolkerUllrich": {
-    "id_str": 28446356,
+    "id_str": "28446356",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2173,7 +2173,7 @@
     }
   },
   "VolkmarKlein": {
-    "id_str": 33043294,
+    "id_str": "33043294",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2181,7 +2181,7 @@
     }
   },
   "waltraud_wolff": {
-    "id_str": 47940273,
+    "id_str": "47940273",
     "verified": 1,
     "groups": {
       "type": "politician",
@@ -2189,7 +2189,7 @@
     }
   },
   "WilfriedOellers": {
-    "id_str": 906847944,
+    "id_str": "906847944",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -2197,7 +2197,7 @@
     }
   },
   "WolfgangGehrcke": {
-    "id_str": 532669620,
+    "id_str": "532669620",
     "verified": 0,
     "groups": {
       "type": "politician",
@@ -2205,7 +2205,7 @@
     }
   },
   "XaverJung": {
-    "id_str": 1313226002,
+    "id_str": "1313226002",
     "verified": 0,
     "groups": {
       "type": "politician",

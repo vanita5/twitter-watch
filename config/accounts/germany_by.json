@@ -1,6 +1,6 @@
 {
   "Gruene_Bayern": {
-    "id_str": 15980032,
+    "id_str": "15980032",
     "groups": {
       "type": "party",
       "location": "BY",
@@ -8,7 +8,7 @@
     }
   },
   "LINKE_Bayern": {
-    "id_str": 1019854628,
+    "id_str": "1019854628",
     "groups": {
       "type": "party",
       "location": "BY",
@@ -16,7 +16,7 @@
     }
   },
   "fdpbay": {
-    "id_str": 66317092,
+    "id_str": "66317092",
     "groups": {
       "type": "party",
       "location": "BY",
@@ -24,7 +24,7 @@
     }
   },
   "AfD_Bayern": {
-    "id_str": 1375039512,
+    "id_str": "1375039512",
     "groups": {
       "type": "party",
       "location": "BY",

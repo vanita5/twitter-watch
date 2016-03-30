@@ -1,6 +1,6 @@
 {
   "CDUBremen": {
-    "id_str": 2445476137,
+    "id_str": "2445476137",
     "groups": {
       "type": "party",
       "location": "HB",
@@ -9,7 +9,7 @@
     "_comment": "unverified"
   },
   "spdbremen": {
-    "id_str": 68173134,
+    "id_str": "68173134",
     "groups": {
       "type": "party",
       "location": "HB",
@@ -18,7 +18,7 @@
     "_comment": "unverified"
   },
   "GrueneBremen": {
-    "id_str": 857836194,
+    "id_str": "857836194",
     "groups": {
       "type": "party",
       "location": "HB",
@@ -26,7 +26,7 @@
     }
   },
   "DieLinkeBremen": {
-    "id_str": 27998217,
+    "id_str": "27998217",
     "groups": {
       "type": "party",
       "location": "HB",
@@ -34,7 +34,7 @@
     }
   },
   "FDPBremen": {
-    "id_str": 415387371,
+    "id_str": "415387371",
     "groups": {
       "type": "party",
       "location": "HB",
@@ -42,7 +42,7 @@
     }
   },
   "AfD_HB": {
-    "id_str": 2416299492,
+    "id_str": "2416299492",
     "groups": {
       "type": "party",
       "location": "HB",
@@ -51,7 +51,7 @@
     "_comment": "unverified"
   },
   "alfabremen": {
-    "id_str": 3385526200,
+    "id_str": "3385526200",
     "groups": {
       "type": "party",
       "location": "HB",
@@ -60,7 +60,7 @@
     "_comment": "unverified"
   },
   "BIWaktuell": {
-    "id_str": 164664039,
+    "id_str": "164664039",
     "groups": {
       "type": "party",
       "location": "HB",

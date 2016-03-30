@@ -1,6 +1,6 @@
 {
   "cdu_thueringen": {
-    "id_str": 23454769,
+    "id_str": "23454769",
     "groups": {
       "type": "party",
       "location": "TH",
@@ -8,7 +8,7 @@
     }
   },
   "SPDThueringen": {
-    "id_str": 21448191,
+    "id_str": "21448191",
     "groups": {
       "type": "party",
       "location": "TH",
@@ -16,7 +16,7 @@
     }
   },
   "Gruene_TH": {
-    "id_str": 18632035,
+    "id_str": "18632035",
     "groups": {
       "type": "party",
       "location": "TH",
@@ -24,7 +24,7 @@
     }
   },
   "die_linke_th": {
-    "id_str": 24521257,
+    "id_str": "24521257",
     "groups": {
       "type": "party",
       "location": "TH",
@@ -32,7 +32,7 @@
     }
   },
   "fdp_thueringen": {
-    "id_str": 214826254,
+    "id_str": "214826254",
     "groups": {
       "type": "party",
       "location": "TH",

@@ -1,6 +1,6 @@
 {
   "CDU": {
-    "id_str": 20429858,
+    "id_str": "20429858",
     "groups": {
       "type": "party",
       "location": "Bund",
@@ -8,7 +8,7 @@
     }
   },
   "CSU": {
-    "id_str": 21107582,
+    "id_str": "21107582",
     "groups": {
       "type": "party",
       "location": "Bund",
@@ -16,7 +16,7 @@
     }
   },
   "spdde": {
-    "id_str": 26458162,
+    "id_str": "26458162",
     "groups": {
       "type": "party",
       "location": "Bund",
@@ -24,7 +24,7 @@
     }
   },
   "Die_Gruenen": {
-    "id_str": 14553288,
+    "id_str": "14553288",
     "groups": {
       "type": "party",
       "location": "Bund",
@@ -32,7 +32,7 @@
     }
   },
   "dieLinke": {
-    "id_str": 44101578,
+    "id_str": "44101578",
     "groups": {
       "type": "party",
       "location": "Bund",
@@ -40,7 +40,7 @@
     }
   },
   "fdp": {
-    "id_str": 39475170,
+    "id_str": "39475170",
     "groups": {
       "type": "party",
       "location": "Bund",
@@ -48,7 +48,7 @@
     }
   },
   "AfD_Bund": {
-    "id_str": 844081278,
+    "id_str": "844081278",
     "groups": {
       "type": "party",
       "location": "Bund",

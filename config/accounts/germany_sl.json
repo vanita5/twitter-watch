@@ -1,6 +1,6 @@
 {
   "cdu_saar": {
-    "id_str": 26521316,
+    "id_str": "26521316",
     "groups": {
       "type": "party",
       "location": "SL",
@@ -8,7 +8,7 @@
     }
   },
   "SPD_Saar": {
-    "id_str": 24674357,
+    "id_str": "24674357",
     "groups": {
       "type": "party",
       "location": "SL",
@@ -16,7 +16,7 @@
     }
   },
   "Gruene_Saar": {
-    "id_str": 19330610,
+    "id_str": "19330610",
     "groups": {
       "type": "party",
       "location": "SL",
@@ -25,7 +25,7 @@
     "_comment": "unverified"
   },
   "dielinkesaar": {
-    "id_str": 475853322,
+    "id_str": "475853322",
     "groups": {
       "type": "party",
       "location": "SL",
@@ -34,7 +34,7 @@
     "_comment": "unverified"
   },
   "FDP_Saar": {
-    "id_str": 285658873,
+    "id_str": "285658873",
     "groups": {
       "type": "party",
       "location": "SL",
@@ -42,7 +42,7 @@
     }
   },
   "PIRATEN_Saar": {
-    "id_str": 44123319,
+    "id_str": "44123319",
     "groups": {
       "type": "party",
       "location": "SL",

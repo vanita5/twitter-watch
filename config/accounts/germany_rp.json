@@ -1,6 +1,6 @@
 {
   "cdurlp": {
-    "id_str": 57641158,
+    "id_str": "57641158",
     "groups": {
       "type": "party",
       "location": "RP",
@@ -8,7 +8,7 @@
     }
   },
   "spdrlp": {
-    "id_str": 24155607,
+    "id_str": "24155607",
     "groups": {
       "type": "party",
       "location": "RP",
@@ -16,7 +16,7 @@
     }
   },
   "GrueneRLP": {
-    "id_str": 1565679818,
+    "id_str": "1565679818",
     "groups": {
       "type": "party",
       "location": "RP",
@@ -25,7 +25,7 @@
     "_comment": "inactive"
   },
   "DIE_LINKE_RLP": {
-    "id_str": 146816929,
+    "id_str": "146816929",
     "groups": {
       "type": "party",
       "location": "RP",
@@ -33,7 +33,7 @@
     }
   },
   "fdprlp": {
-    "id_str": 199281559,
+    "id_str": "199281559",
     "groups": {
       "type": "party",
       "location": "RP",
@@ -41,7 +41,7 @@
     }
   },
   "RLP_AfD": {
-    "id_str": 3521387355,
+    "id_str": "3521387355",
     "groups": {
       "type": "party",
       "location": "RP",

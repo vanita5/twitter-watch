@@ -1,6 +1,6 @@
 {
   "CDUMV": {
-    "id_str": 22338642,
+    "id_str": "22338642",
     "groups": {
       "type": "party",
       "location": "MV",
@@ -8,7 +8,7 @@
     }
   },
   "SPDMV": {
-    "id_str": 1285611955,
+    "id_str": "1285611955",
     "groups": {
       "type": "party",
       "location": "MV",
@@ -16,7 +16,7 @@
     }
   },
   "GRUENE_MV": {
-    "id_str": 16696799,
+    "id_str": "16696799",
     "groups": {
       "type": "party",
       "location": "MV",
@@ -24,7 +24,7 @@
     }
   },
   "DIE_LINKE_MV": {
-    "id_str": 2511381768,
+    "id_str": "2511381768",
     "groups": {
       "type": "party",
       "location": "MV",
@@ -33,7 +33,7 @@
     "_comment": "unverified"
   },
   "FDP_MV": {
-    "id_str": 605361994,
+    "id_str": "605361994",
     "groups": {
       "type": "party",
       "location": "MV",
@@ -42,7 +42,7 @@
     "_comment": "unverified"
   },
   "AfD_MV": {
-    "id_str": 1567658617,
+    "id_str": "1567658617",
     "groups": {
       "type": "party",
       "location": "MV",
@@ -50,7 +50,7 @@
     }
   },
   "NPD_MV": {
-    "id_str": 57014518,
+    "id_str": "57014518",
     "groups": {
       "type": "party",
       "location": "MV",

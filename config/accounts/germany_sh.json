@@ -1,6 +1,6 @@
 {
   "SH_CDU": {
-    "id_str": 620307104,
+    "id_str": "620307104",
     "groups": {
       "type": "party",
       "location": "SH",
@@ -8,7 +8,7 @@
     }
   },
   "SPDSH": {
-    "id_str": 17808184,
+    "id_str": "17808184",
     "groups": {
       "type": "party",
       "location": "SH",
@@ -16,7 +16,7 @@
     }
   },
   "GrueneSH": {
-    "id_str": 17589578,
+    "id_str": "17589578",
     "groups": {
       "type": "party",
       "location": "SH",
@@ -24,7 +24,7 @@
     }
   },
   "linke_sh": {
-    "id_str": 2369959501,
+    "id_str": "2369959501",
     "groups": {
       "type": "party",
       "location": "SH",
@@ -32,7 +32,7 @@
     }
   },
   "FDP_SH": {
-    "id_str": 65596829,
+    "id_str": "65596829",
     "groups": {
       "type": "party",
       "location": "SH",
@@ -40,7 +40,7 @@
     }
   },
   "AfD_SH1": {
-    "id_str": 4474349613,
+    "id_str": "4474349613",
     "groups": {
       "type": "party",
       "location": "SH",
@@ -48,7 +48,7 @@
     }
   },
   "PiratenparteiSH": {
-    "id_str": 42501096,
+    "id_str": "42501096",
     "groups": {
       "type": "party",
       "location": "SH",

@@ -1,6 +1,6 @@
 {
   "CDUNRW_de": {
-    "id_str": 102371677,
+    "id_str": "102371677",
     "groups": {
       "type": "party",
       "location": "NW",
@@ -8,7 +8,7 @@
     }
   },
   "nrwspd": {
-    "id_str": 14301745,
+    "id_str": "14301745",
     "groups": {
       "type": "party",
       "location": "NW",
@@ -16,7 +16,7 @@
     }
   },
   "gruenenrw": {
-    "id_str": 16777522,
+    "id_str": "16777522",
     "groups": {
       "type": "party",
       "location": "NW",
@@ -24,7 +24,7 @@
     }
   },
   "DieLinkeNRW": {
-    "id_str": 86159348,
+    "id_str": "86159348",
     "groups": {
       "type": "party",
       "location": "NW",
@@ -32,7 +32,7 @@
     }
   },
   "fdp_nrw": {
-    "id_str": 16095962,
+    "id_str": "16095962",
     "groups": {
       "type": "party",
       "location": "NW",
@@ -40,7 +40,7 @@
     }
   },
   "AfD_NRW": {
-    "id_str": 1347977654,
+    "id_str": "1347977654",
     "groups": {
       "type": "party",
       "location": "NW",
@@ -49,7 +49,7 @@
     "_comment": "unverified"
   },
   "AfDNRW": {
-    "id_str": 1713942204,
+    "id_str": "1713942204",
     "groups": {
       "type": "party",
       "location": "NW",
@@ -58,7 +58,7 @@
     "_comment": "unverified"
   },
   "PiratenNRW": {
-    "id_str": 36646869,
+    "id_str": "36646869",
     "groups": {
       "type": "party",
       "location": "NW",

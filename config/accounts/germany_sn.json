@@ -1,6 +1,6 @@
 {
   "cdusachsen": {
-    "id_str": 59154583,
+    "id_str": "59154583",
     "groups": {
       "type": "party",
       "location": "SN",
@@ -9,7 +9,7 @@
     "_comment": "unverified"
   },
   "sachsencdu": {
-    "id_str": 59156216,
+    "id_str": "59156216",
     "groups": {
       "type": "party",
       "location": "SN",
@@ -18,7 +18,7 @@
     "_comment": "unverified"
   },
   "SPDSachsen": {
-    "id_str": 46346999,
+    "id_str": "46346999",
     "groups": {
       "type": "party",
       "location": "SN",
@@ -26,7 +26,7 @@
     }
   },
   "gruene_sachsen": {
-    "id_str": 20974580,
+    "id_str": "20974580",
     "groups": {
       "type": "party",
       "location": "SN",
@@ -34,7 +34,7 @@
     }
   },
   "linke_sachsen": {
-    "id_str": 18834002,
+    "id_str": "18834002",
     "groups": {
       "type": "party",
       "location": "SN",
@@ -42,7 +42,7 @@
     }
   },
   "fdpsachsen": {
-    "id_str": 19293052,
+    "id_str": "19293052",
     "groups": {
       "type": "party",
       "location": "SN",
@@ -50,7 +50,7 @@
     }
   },
   "sachsen_afd": {
-    "id_str": 2782263614,
+    "id_str": "2782263614",
     "groups": {
       "type": "party",
       "location": "SN",
@@ -59,7 +59,7 @@
     "_comment": "unverified"
   },
   "AfD_Sachsen": {
-    "id_str": 1280551850,
+    "id_str": "1280551850",
     "groups": {
       "type": "party",
       "location": "SN",

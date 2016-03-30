@@ -1,6 +1,6 @@
 {
   "CDU_BW": {
-    "id_str": 20765133,
+    "id_str": "20765133",
     "groups": {
       "type": "party",
       "location": "BW",
@@ -8,7 +8,7 @@
     }
   },
   "spdbawue": {
-    "id_str": 19062136,
+    "id_str": "19062136",
     "groups": {
       "type": "party",
       "location": "BW",
@@ -16,7 +16,7 @@
     }
   },
   "GrueneBW": {
-    "id_str": 16002482,
+    "id_str": "16002482",
     "groups": {
       "type": "party",
       "location": "BW",
@@ -24,7 +24,7 @@
     }
   },
   "die_linke_bw": {
-    "id_str": 27405083,
+    "id_str": "27405083",
     "groups": {
       "type": "party",
       "location": "BW",
@@ -32,7 +32,7 @@
     }
   },
   "FDPBW": {
-    "id_str": 22157096,
+    "id_str": "22157096",
     "groups": {
       "type": "party",
       "location": "BW",
@@ -40,7 +40,7 @@
     }
   },
   "AlternativeBW": {
-    "id_str": 1542805482,
+    "id_str": "1542805482",
     "groups": {
       "type": "party",
       "location": "BW",
@@ -48,7 +48,7 @@
     }
   },
   "AfD_BW": {
-    "id_str": 1370417857,
+    "id_str": "1370417857",
     "groups": {
       "type": "party",
       "location": "BW",
