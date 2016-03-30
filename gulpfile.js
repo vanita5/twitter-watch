@@ -19,7 +19,7 @@ gulp.task('db-backup', () => {
 
 gulp.task('db-restore', () => {
     mongobackup.restore({
-        host: 'localhost',
+        host: '127.0.0.1',
         db: 'twitter-watch',
         path: './backup/twitter-watch',
         drop: false
