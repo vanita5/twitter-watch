@@ -116,7 +116,7 @@ var fetchPreviousTweets = function (account_ids, tweets) {
         try{
             for(let id of account_ids){
                 let result = yield fetchTimeline(id, tweets);
-                console.log('Fetched timeline ' + (account_ids.indexOf(id) + 1) +'/' + account_ids.length);
+                console.log('Fetched timeline for ' + id + ' (' + (account_ids.indexOf(id) + 1) +'/' + account_ids.length + ')');
                 if(result && result.nInserted > 0) console.log('Inserted ' +  result.nInserted + ' new tweet(s) into the database');
             }
         } catch(err){
