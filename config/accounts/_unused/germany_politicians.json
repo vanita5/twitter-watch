@@ -1897,7 +1897,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "smuellermdb": {
@@ -1905,7 +1905,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CSU"
     }
   },
   "RebmannMdB": {
@@ -1913,7 +1913,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "s_schwartze": {
@@ -1921,7 +1921,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "SteffenBilger": {
@@ -1929,7 +1929,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "steffenkanitz": {
@@ -1937,7 +1937,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "SCLemme": {
@@ -1945,7 +1945,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "SteffiLemke": {
@@ -1953,7 +1953,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "stephankuehn": {
@@ -1961,7 +1961,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "SusannRuethrich": {
@@ -1969,7 +1969,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "SuzaKarawanskij": {
@@ -1977,7 +1977,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "sven_kindler": {
@@ -1985,7 +1985,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "SvenVolmering": {
@@ -1993,7 +1993,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "swenschulz": {
@@ -2001,7 +2001,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "BabettesChefin": {
@@ -2009,7 +2009,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "SylviaPantel": {
@@ -2017,7 +2017,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "TabeaRoessner": {
@@ -2025,7 +2025,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "TSchipanski": {
@@ -2033,7 +2033,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "thomasgebhart": {
@@ -2041,7 +2041,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "ThomasHitschler": {
@@ -2049,7 +2049,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "tj_tweets": {
@@ -2057,7 +2057,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "NordMdb": {
@@ -2065,7 +2065,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "ThomasOppermann": {
@@ -2073,7 +2073,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "TinoSorge": {
@@ -2081,7 +2081,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "TobiasZech": {
@@ -2089,7 +2089,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CSU"
     }
   },
   "KoenigsGruen": {
@@ -2097,7 +2097,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "UliFreese": {
@@ -2105,7 +2105,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "ulle_schauws": {
@@ -2113,7 +2113,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "UlliNissen": {
@@ -2121,7 +2121,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "UlrichKelber": {
@@ -2129,7 +2129,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "UteVogt": {
@@ -2137,7 +2137,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "UweKekeritz": {
@@ -2145,7 +2145,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "UweSchummer": {
@@ -2153,7 +2153,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "Volker_Beck": {
@@ -2161,7 +2161,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "Gruene"
     }
   },
   "VolkerUllrich": {
@@ -2169,7 +2169,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CSU"
     }
   },
   "VolkmarKlein": {
@@ -2177,7 +2177,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "waltraud_wolff": {
@@ -2185,7 +2185,7 @@
     "verified": 1,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "SPD"
     }
   },
   "WilfriedOellers": {
@@ -2193,7 +2193,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   },
   "WolfgangGehrcke": {
@@ -2201,7 +2201,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "DieLINKE"
     }
   },
   "XaverJung": {
@@ -2209,7 +2209,7 @@
     "verified": 0,
     "groups": {
       "type": "politician",
-      "party": null
+      "party": "CDU"
     }
   }
 }
