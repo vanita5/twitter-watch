@@ -78,10 +78,10 @@ var initStream = function (account_ids, tweets) {
     });
 };
 
-var getTimeline = function (id) {
+var fetchTimeline = function (id, tweets) {
     //right now twit does not reject promises on rate limit errors but the promise chain should break
     //https://github.com/ttezel/twit/issues/256
-    return new Promise((resolve, reject) => {
+    let getTimeline = new Promise((resolve, reject) => {
         T.get('statuses/user_timeline', {user_id: id, count: 200, include_rts: true})
         .then((result) => {
             if(result.data.errors && result.data.errors.length) reject(result.data.errors[0]);
@@ -90,11 +90,9 @@ var getTimeline = function (id) {
             reject(e);
         });
     });
-};
-
-var fetchTimeline = function (id, tweets) {
+    
     return new Promise((resolve, reject) => {
-        getTimeline(id)
+        getTimeline
         .then((result) => {
             result = result.map((tweet) => {
                 let insertOp = {insertOne: {document: {}}};
