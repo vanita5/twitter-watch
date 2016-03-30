@@ -85,6 +85,7 @@ var fetchTimeline = function (id, tweets) {
         T.get('statuses/user_timeline', {user_id: id, count: 200, include_rts: true})
         .then((result) => {
             if(result.data.errors && result.data.errors.length) reject(result.data.errors[0]);
+            else if (result.data.length === 0) reject(new Error("Empty timeline."));
             else resolve(result.data);
         },(e) => {
             reject(e);
@@ -103,6 +104,7 @@ var fetchTimeline = function (id, tweets) {
         }, (e) => {
             e.id = id;
             if(e.code === 88) reject(e);
+            else console.error(e);
         })
         .catch((e) => {console.error(e);})
         .then(resolve);
