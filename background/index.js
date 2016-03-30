@@ -54,7 +54,7 @@ MongoClient.connect(url, (err, db) => {
         .catch((e) => {console.error(e);})
         .then((account_ids) => {
             account_ids = account_ids.map((id)=>{return id.id_str;});
-            //fetchPreviousTweets(account_ids, tweets);
+            fetchPreviousTweets(account_ids, tweets);
             initStream(account_ids, tweets);
         });
 });
@@ -78,31 +78,69 @@ var initStream = function (account_ids, tweets) {
     });
 };
 
-var fetchPreviousTweets = function (account_ids, tweets) {
-    for (let id of account_ids) {
-        //right now twit does not reject promises on rate limit errors but the chain should break
-        //https://github.com/ttezel/twit/issues/256
-        let getTimeline = new Promise((resolve, reject) => {
-            T.get('statuses/user_timeline', {user_id: id, count: 200})
-            .then((result) => {
-                if(result.data.errors && result.data.errors.length) reject(result.data.errors[0]);
-                else if(result.data.isArray && !result.data.length) reject(new Error("No Tweets in Timeline for ID " + id));
-                else resolve(result.data);
-            },reject);
+var getTimeline = function (id) {
+    //right now twit does not reject promises on rate limit errors but the promise chain should break
+    //https://github.com/ttezel/twit/issues/256
+    return new Promise((resolve, reject) => {
+        T.get('statuses/user_timeline', {user_id: id, count: 200, include_rts: true})
+        .then((result) => {
+            if(result.data.errors && result.data.errors.length) reject(result.data.errors[0]);
+            else resolve(result.data);
+        },(e) => {
+            reject(e);
         });
+    });
+};
+
+var fetchTimeline = function (id, tweets) {
+    return new Promise((resolve, reject) => {
+        getTimeline(id)
+        .then((result) => {
+            result = result.map((tweet) => {
+                let insertOp = {insertOne: {document: {}}};
+                insertOp.insertOne.document = tweet;
+                return insertOp;
+            });
+            return tweets.bulkWrite(result, {w: 1});
+        }, (e) => {
+            e.id = id;
+            if(e.code === 88) reject(e);
+        })
+        .catch((e) => {console.error(e);})
+        .then(resolve);
+    });
+};
+
+var fetchPreviousTweets = function (account_ids, tweets) {
+    sync(function* (){
+        let redoStack = [];
+        let start = new Date().getTime();
+        try{
+            for(let id of account_ids){
+                let result = yield fetchTimeline(id, tweets);
+                console.log('Fetched timeline ' + (account_ids.indexOf(id) + 1) +'/' + account_ids.length);
+                if(result && result.nInserted > 0) console.log('Inserted ' +  result.nInserted + ' new tweet(s) into the database');
+            }
+        } catch(err){
+            //got rate limit
+            let pos = account_ids.indexOf(err.id);
+            console.log("got rate limit at timeline " + (pos + 1));
+            redoStack = redoStack.concat(account_ids.slice(pos));
+        }
+        let end = new Date().getTime();
+        let difference = end-start;
         
-        getTimeline
-            .then((result) => {
-                result = result.map((tweet) => {
-                   let insertOp = {insertOne: {document:{}}}; 
-                   insertOp.insertOne.document = tweet;
-                   return insertOp;
-                });
-                return tweets.bulkWrite(result, {w: 1});
-            },(e) => {console.error(e);})
-            .catch((e) => {console.error(e);})
-            .then((result) => {if(result.nInserted > 0) console.log('Inserted ' +  result.nInserted + ' new tweets into database');});
-    }
+        if(redoStack.length > 0){
+            let redoTime = (60000*15+100)-difference; //rate limit refreshes every 15 minutes. 100ms extra against slippery slopes.
+            setTimeout(() => {
+                fetchPreviousTweets(redoStack, tweets);
+            }, redoTime);
+            let redoDate = new Date(end + redoTime);
+            console.log('Scheduled remaining ' + redoStack.length + ' timeline-fetches for ' + redoDate.toLocaleDateString() + ' ' + redoDate.toLocaleTimeString() + ' system time');
+        }
+        
+        console.log('finished in ' + difference + ' ms');
+    });
 };
 
 var filter = function (tweet, accounts_ids) {
@@ -111,4 +149,14 @@ var filter = function (tweet, accounts_ids) {
     if (accounts_ids.indexOf(tweet.user.id_str) < 0) return true;
 
     return false;
+};
+
+//this function - makes all - promises - look synchrone - oh don't ask why - oh don't ask why
+//https://www.youtube.com/watch?v=PAK5blgfKWM
+var sync = (fn) => {
+    let iterator = fn();
+    let loop = (result) => {
+        if(!result.done) result.value.then((res) => {loop(iterator.next(res));}, (err) => {loop(iterator.throw(err));});
+    };
+    loop(iterator.next());
 };
