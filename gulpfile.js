@@ -10,7 +10,7 @@ gulp.task('default', () => {
 
 gulp.task('db-backup', () => {
     mongobackup.dump({
-        host: 'localhost',
+        host: '127.0.0.1',
         db: 'twitter-watch',
         collection: 'tweets',
         out: './backup'
