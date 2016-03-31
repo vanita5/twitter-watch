@@ -127,15 +127,24 @@ var fetchPreviousTweets = function (account_ids, tweets) {
             console.log("got rate limit at timeline " + (pos + 1));
             redoStack = redoStack.concat(account_ids.slice(pos));
         }
+        
+        let rateLimit, rateLimitReset;
+        try{
+            rateLimit = yield T.get('application/rate_limit_status', {resources: 'statuses'});
+            rateLimitReset = rateLimit.data.resources.statuses['/statuses/user_timeline'].reset*1000 + 100;
+        } catch(err){
+            console.error(err);
+        }
+        
         let end = new Date().getTime();
         let difference = end-start;
         
         if(redoStack.length > 0){
-            let redoTime = (60000*15+100)-difference; //rate limit refreshes every 15 minutes. 100ms extra against slippery slopes.
+            let redoTime = rateLimitReset || ((60000*16)-difference); //rate limit refreshes every 15 minutes. 1min extra against slippery slopes.
             setTimeout(() => {
                 fetchPreviousTweets(redoStack, tweets);
-            }, redoTime);
-            let redoDate = new Date(end + redoTime);
+            }, rateLimitReset-end);
+            let redoDate = new Date(redoTime);
             console.log('Scheduled remaining ' + redoStack.length + ' timeline-fetches for ' + redoDate.toLocaleDateString() + ' ' + redoDate.toLocaleTimeString() + ' system time');
         }
         
