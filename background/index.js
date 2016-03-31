@@ -24,6 +24,7 @@ MongoClient.connect(url, (err, db) => {
 
     var tweets = db.collection('tweets');
     var accounts = db.collection('accounts');
+    let last, ids;
 
     
     tweets.createIndex({id_str: 'text'},{w: 1, unique: true})
@@ -48,16 +49,22 @@ MongoClient.connect(url, (err, db) => {
     })
     .catch((e) => {console.error(e);})
     .then(() => {
+        //find newest tweet in database
+        return tweets.find({}, {_id: 0, id_str: 1}).sort({id_str: -1}).limit(1).next();
+    })
+    .catch((e) => {console.error(e);})
+    .then((last_id) => {
+        last = last_id.id_str;
         //collect account ids for filter stream
         return accounts.find({}, { _id: 0, id_str: 1 }).toArray();
     })
     .catch((e) => {console.error(e);})
     .then((account_ids) => {
-        account_ids = account_ids.map((id)=>{return id.id_str;});
-        return initStream(account_ids, tweets);
+        ids = account_ids.map((id)=>{return id.id_str;});
+        return initStream(ids, tweets);
     })
     .then((account_ids) => {
-        fetchPreviousTweets(account_ids, tweets);
+        fetchPreviousTweets(ids, tweets, last);
     });
 });
 
@@ -93,7 +100,7 @@ var initStream = function (account_ids, tweets) {
         stream.on('connected', (response) => {
             if(response.statusCode === 200){
                 console.log('Connected successfully!');
-                resolve(account_ids);
+                resolve();
             }
         });
     });
