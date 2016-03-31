@@ -159,7 +159,7 @@ var fetchPreviousTweets = function (account_ids, tweets) {
         let rateLimit, rateLimitReset;
         try{
             rateLimit = yield T.get('application/rate_limit_status', {resources: 'statuses'});
-            rateLimitReset = rateLimit.data.resources.statuses['/statuses/user_timeline'].reset*1000 + 100;
+            rateLimitReset = rateLimit.data.resources.statuses['/statuses/user_timeline'].reset*1000 + 30000;
         } catch(err){
             console.error(err);
         }
