@@ -80,7 +80,7 @@ var initStream = function (account_ids, tweets) {
         .catch((e) => {console.error(e);});
     });
 
-        stream.on('delete', (deleteMessage) => {
+    stream.on('delete', (deleteMessage) => {
         tweets.updateOne(
             {"id_str": deleteMessage.delete.status.id_str},
             {$set: { "deleted": true }}
