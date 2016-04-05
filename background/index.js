@@ -1,13 +1,24 @@
 'use strict';
+
+require('daemon')();
+
 const MongoClient = require('mongodb').MongoClient,
     twitter_config = require(__dirname + '/../config/twitter'),
     Twit = require('twit'),
     url = require(__dirname + '/../config/mongo').url,
+    winston = require('winston'),
     account_configs = require('require-all')({
         dirname: __dirname + '/../config/accounts',
         recursive: false
     });
 
+winston.add(winston.transports.File, {
+    filename: __dirname + '/../log/out.log',
+    json: false,
+    prettyPrint: true
+});
+
+winston.info('Daemon started.');
 
 const T = new Twit({
     consumer_key: twitter_config.auth.consumer_key,
@@ -18,9 +29,10 @@ const T = new Twit({
 
 MongoClient.connect(url, (err, db) => {
     if (err) {
+        winston.error(err);
         return console.dir(err);
     }
-    console.log('Connected correctly to server.');
+    winston.info('Connected correctly to server.');
 
     var tweets = db.collection('tweets');
     var accounts = db.collection('accounts');
@@ -28,12 +40,12 @@ MongoClient.connect(url, (err, db) => {
 
     
     tweets.createIndex({id_str: 'text'},{w: 1, unique: true})
-    .catch((e) => {console.error(e);})
+    .catch((e) => {winston.error(e);})
     .then(() => {
-        console.log('Empty old accounts collection...');
+        winston.info('Empty old accounts collection...');
         return accounts.deleteMany({});
     })
-    .catch((e) => {console.error(e);})
+    .catch((e) => {winston.error(e);})
     .then(() => {
         //collect accounts from jsons and save them into the db
         var docs = [];
@@ -44,21 +56,21 @@ MongoClient.connect(url, (err, db) => {
                 docs.push(account);
             }
         }
-        console.log('Got %d accounts from JSON files.', docs.length);
+        winston.info('Got ' + docs.length + ' accounts from JSON files.');
         return accounts.insertMany(docs, {w:1});
     })
-    .catch((e) => {console.error(e);})
+    .catch((e) => {winston.error(e);})
     .then(() => {
         //find newest tweet in database
         return tweets.find({}, {_id: 0, id_str: 1}).sort({id_str: -1}).limit(1).next();
     })
-    .catch((e) => {console.error(e);})
+    .catch((e) => {winston.error(e);})
     .then((last_id) => {
         last = last_id.id_str;
         //collect account ids for filter stream
         return accounts.find({}, { _id: 0, id_str: 1 }).toArray();
     })
-    .catch((e) => {console.error(e);})
+    .catch((e) => {winston.error(e);})
     .then((account_ids) => {
         ids = account_ids.map((id)=>{return id.id_str;});
         return initStream(ids, tweets);
@@ -69,15 +81,15 @@ MongoClient.connect(url, (err, db) => {
 });
 
 var initStream = function (account_ids, tweets) {
-    console.log('Starting stream...');
+    winston.info('Starting stream...');
 
     var stream = T.stream('statuses/filter', { follow: account_ids });
 
     stream.on('tweet', (tweet) => {
         if (filter(tweet, account_ids)) return;
-        console.log('Inserting @' + tweet.user.screen_name + ': "' + tweet.text + '"');
+        winston.info('Inserting @' + tweet.user.screen_name + ': "' + tweet.text + '"');
         tweets.insertOne(tweet, {w:1})
-        .catch((e) => {console.error(e);});
+        .catch((e) => {winston.error(e);});
     });
 
     stream.on('delete', (deleteMessage) => {
@@ -85,21 +97,21 @@ var initStream = function (account_ids, tweets) {
             {"id_str": deleteMessage.delete.status.id_str},
             {$set: { "deleted": true }}
         )
-        .catch((e) => {console.error(e);});
+        .catch((e) => {winston.error(e);});
     });
     
     stream.on('disconnect', (disconnectMsg) => {
-        console.log('Disconnected from stream: ' + disconnectMsg);
+        winston.info('Disconnected from stream: ' + disconnectMsg);
     });
     
     stream.on('reconnect', (request, response, connectInterval) => {
-        console.log('Trying to reconnect in ' + connectInterval + 'ms…');
+        winston.info('Trying to reconnect in ' + connectInterval + 'ms…');
     });
     
     return new Promise((resolve, reject) => {
         stream.on('connected', (response) => {
             if(response.statusCode === 200){
-                console.log('Connected successfully!');
+                winston.info('Connected successfully!');
                 resolve();
             }
         });
@@ -132,9 +144,9 @@ var fetchTimeline = function (id, tweets) {
         }, (e) => {
             e.id = id;
             if(e.code === 88) reject(e);
-            else console.error(e);
+            else winston.error(e);
         })
-        .catch((e) => {console.error(e);})
+        .catch((e) => {winston.error(e);})
         .then(resolve);
     });
 };
@@ -146,13 +158,13 @@ var fetchPreviousTweets = function (account_ids, tweets) {
         try{
             for(let id of account_ids){
                 let result = yield fetchTimeline(id, tweets);
-                console.log('Fetched timeline for ' + id + ' (' + (account_ids.indexOf(id) + 1) +'/' + account_ids.length + ')');
-                if(result && result.nInserted > 0) console.log('Inserted ' +  result.nInserted + ' new tweet(s) into the database');
+                winston.info('Fetched timeline for ' + id + ' (' + (account_ids.indexOf(id) + 1) +'/' + account_ids.length + ')');
+                if(result && result.nInserted > 0) winston.info('Inserted ' +  result.nInserted + ' new tweet(s) into the database');
             }
         } catch(err){
             //got rate limit
             let pos = account_ids.indexOf(err.id);
-            console.log("got rate limit at timeline " + (pos + 1));
+            winston.info("got rate limit at timeline " + (pos + 1));
             redoStack = redoStack.concat(account_ids.slice(pos));
         }
         
@@ -161,7 +173,7 @@ var fetchPreviousTweets = function (account_ids, tweets) {
             rateLimit = yield T.get('application/rate_limit_status', {resources: 'statuses'});
             rateLimitReset = rateLimit.data.resources.statuses['/statuses/user_timeline'].reset*1000 + 30000;
         } catch(err){
-            console.error(err);
+            winston.error(err);
         }
         
         let end = new Date().getTime();
@@ -173,10 +185,10 @@ var fetchPreviousTweets = function (account_ids, tweets) {
                 fetchPreviousTweets(redoStack, tweets);
             }, rateLimitReset-end);
             let redoDate = new Date(redoTime);
-            console.log('Scheduled remaining ' + redoStack.length + ' timeline-fetches for ' + redoDate.toLocaleDateString() + ' ' + redoDate.toLocaleTimeString() + ' system time');
+            winston.warn('Scheduled remaining ' + redoStack.length + ' timeline-fetches for ' + redoDate.toLocaleDateString() + ' ' + redoDate.toLocaleTimeString() + ' system time');
         }
         
-        console.log('finished in ' + difference + ' ms');
+        winston.info('finished in ' + difference + ' ms');
     });
 };
 
